@@ -1,4 +1,3 @@
-Lab 2
-====
+CSE 170 / COGS 120
+Mood Map
 
-Lab 2 introduces you to static HTML, CSS, and Bootstrap.
