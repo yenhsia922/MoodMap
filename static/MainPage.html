@@ -11,11 +11,61 @@
   <link rel="stylesheet" href="css/reset.css">
 
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
 
+    <!--initializes map view-->
+    <script>
+    	var myCenter=new google.maps.LatLng(32.8799,-117.2358);
+
+		function initialize()
+		{
+			var mapProp = {
+			  center:myCenter,
+			  zoom: 17,
+			  mapTypeId:google.maps.MapTypeId.HYBRID
+			  };
+
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+			var marker=new google.maps.Marker({
+			  position:myCenter,
+			  icon:'./images/pinkball.png'
+			  });
+
+			marker.setMap(map);
+
+			google.maps.event.addListener(marker,'click',function() {
+			  map.setZoom(9);
+			  map.setCenter(marker.getPosition());
+			});
+
+			var infowindow = new google.maps.InfoWindow({
+			  content:"A status about my miserable life."
+			  });
+
+			infowindow.open(map,marker);
+
+			/*var infowindow = new google.maps.InfoWindow({
+			  content:"Other people's status to show on click"
+			  });
+
+			google.maps.event.addListener(marker, 'click', function() {
+			  infowindow.open(map,marker);
+			});
+
+			reference here http://www.w3schools.com/googleAPI/google_maps_ref.asp
+			*/
+
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 </head>
 
 <body>
-	<h1> Main Page Coming Soon </h>
+	<h1> Main Page Coming Soon </h1>
+
+	<div id="googleMap" style="width: 100%;height:400px;"></div>	
 
 </body>
 
