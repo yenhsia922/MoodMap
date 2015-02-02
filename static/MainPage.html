@@ -8,9 +8,11 @@
 
   <title>Login </title>
 
-  <link rel="stylesheet" href="css/reset.css">
-
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  	<link rel="stylesheet" href="css/reset.css">
+  	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  	<link rel="stylesheet" href="css/responsive-nav.css">
+	<script src="js/responsive-nav.js"></script>
+    
     <script src="http://maps.googleapis.com/maps/api/js"></script>
 
     <!--initializes map view-->
@@ -22,7 +24,7 @@
 			var mapProp = {
 			  center:myCenter,
 			  zoom: 17,
-			  mapTypeId:google.maps.MapTypeId.HYBRID
+			  mapTypeId:google.maps.MapTypeId.ROADMAP
 			  };
 
 			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
@@ -40,7 +42,7 @@
 			});
 
 			var infowindow = new google.maps.InfoWindow({
-			  content:"A status about my miserable life."
+			  content:"STATUS asdfadsfasfs"
 			  });
 
 			infowindow.open(map,marker);
@@ -63,10 +65,23 @@
 </head>
 
 <body>
-	<h1> Main Page Coming Soon </h1>
+
+	<div class="navbar">
+		<nav class="nav-collapse">
+		  <ul>
+		    <li><a href="#">These</a></li>
+		    <li><a href="#">Links</a></li>
+		    <li><a href="#">Don't</a></li>
+		    <li><a href="#">Work</a></li>
+		  </ul>
+		</nav>
+	</div>
+
 
 	<div id="googleMap" style="width: 100%;height:400px;"></div>	
-
+	<script>
+	  var nav = responsiveNav(".nav-collapse");
+	</script>
 </body>
 
 </html>

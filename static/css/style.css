@@ -85,3 +85,7 @@ body {
 	border-bottom: 3px solid #307d63;
 	cursor: pointer;
 }
+
+.navbar{
+	margin: 4%;
+}
