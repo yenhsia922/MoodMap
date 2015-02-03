@@ -4,6 +4,10 @@ max-width: 400px;
 
 body{
 color: #FFF;
-  background-color: #448ed3;
-  padding: 20px;
+  background-color: #ffcc00;
+  padding-bottom: 20px;
+}
+
+#logo {
+max-width:100%
 }

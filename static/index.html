@@ -1,37 +1,63 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mood Map</title>
 
-<head>
+    <!-- Bootstrap -->
+    <link href="css/cosmo.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
 
-  <meta charset="UTF-8">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	
+  </head>
+  <body>
+  
+ 
+  <!--
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">
+        Mood Map
+      </a>
+    </div>
+  </div>
+</nav>
+-->
+ <div class="container" id = "cont">
+	<img id ="logo" src="images/nogbgwithtext.png">
+	<form>
+  <div class="form-group" action="Login.php">
+    
+  <div class="form-group">
+  <label for="InputUserName">Username</label>
+  <input type="text" class="form-control" id="InputUserName" placeholder="User Name">
+  </div>
+  
+  <div class="form-group">
+    <label for="InputPassword">Password</label>
+    <input type="password" class="form-control" id="InputPassword" placeholder="Password">
+  </div>
+  
+<a class="btn btn-default" href="MainPage.html" role="submit">Login</a>
+</form>
 
-  <title>Login </title>
+<br><br><br>
+<a class="btn btn-danger" href="SignUp.html" role="button">Sign Up</a>
+</div>
 
-  <link rel="stylesheet" href="css/reset.css">
-
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-
-</head>
-
-<body>
-
-  <div class="wrap">
-		<div class="avatar">
-      <img src="http://icons.iconarchive.com/icons/icons-land/vista-map-markers/256/Map-Marker-Marker-Outside-Pink-icon.png">
-		</div>
-		<input type="text" placeholder="username" required>
-		<div class="bar">
-			<i></i>
-		</div>
-		<input type="password" placeholder="password" required>
-		<a href="" class="forgot_link">forgot ?</a>
-		<button onclick="location.href='MainPage.html'">Sign In</button>
-		<button onclick="location.href='SignUp.html'">Sign Up</button>
-	</div>
-
-  <script src="js/index.js"></script>
-
-</body>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

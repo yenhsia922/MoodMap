@@ -23,7 +23,7 @@
   <body>
   <div class="container" id = "cont">
   <h1>Successfully Signed Up!</h1>
-  <h3><a href="index.html">Sign In!</a></h3>
+  <a class="btn btn-default" href="index.html" role="button">Click here to login.</a
   </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
