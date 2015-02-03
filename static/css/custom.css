@@ -11,3 +11,8 @@ body {
 #logo {
   max-width:100%
 }
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+  background-color: red;
+}
