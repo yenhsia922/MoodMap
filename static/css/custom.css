@@ -1,13 +1,13 @@
 #cont {
-max-width: 400px;
+  max-width:400px
 }
 
-body{
-color: #FFF;
-  background-color: #ffcc00;
-  padding-bottom: 20px;
+body {
+  color:#FFF;
+  background-color:#fc0;
+  padding-bottom:20px
 }
 
 #logo {
-max-width:100%
+  max-width:100%
 }
