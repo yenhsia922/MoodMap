@@ -16,3 +16,8 @@ body {
   color: #000;
   background-color: #fff;
 }
+.btn-default {
+  color:#ffffff;
+  background-color:#3e89e6;
+  border-color:#3e89e6
+}
