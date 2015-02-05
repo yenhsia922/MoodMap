@@ -3,8 +3,8 @@
 }
 
 body {
-  color:#FFF;
-  background-color:#cc99cc;
+  color:#3e89e6;
+  background-color:#C5EED6;
   padding-bottom:20px
 }
 
@@ -13,6 +13,6 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #ffffff;
-  background-color: red;
+  color: #000;
+  background-color: #fff;
 }
