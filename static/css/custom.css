@@ -13,8 +13,8 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #000;
-  background-color: #fff;
+  color: #fff;
+  background-color: #000;
 }
 .btn-default {
   color:#ffffff;
