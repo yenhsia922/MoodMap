@@ -1,6 +1,6 @@
 #cont {
   max-width:400px;
-  margin-top:30px;
+  margin-top:20px;
 
   /* align logo to center*/
   text-align: center;
@@ -10,7 +10,7 @@
 body {
   color:#3e89e6;
   background-color:#C5EED6;
-  padding-bottom:20px
+  padding-bottom:20px;
 }
 
 #logo {
@@ -26,28 +26,31 @@ body {
   color:#ffffff;
   background-color:#3e89e6;
   border-color:#3e89e6;
-  padding: 10px 18px;
-  margin-top:8px;
-}
-
-.btn-danger{
-  margin-top:0px;
+  padding: 8px;
 }
 
 /*login button*/
 a.btn-default{
-  margin-top:20px;
   width:100px;
 }
 
-/*signup button*/
-a.btn-danger{
-  width:100px;
+.btn-default:hover{
+  background-color: #fffdbe;
+  border-color: #66afe9;
+  color: #3e89e6;
+  transition: .5s ease all;
 }
 
+.form-box{
+  margin-bottom: 10px;
+}
+
+.password-box{
+  margin-bottom: 30px;
+}
 
 .contedge{
-  margin: 5%;
+  margin: 2%;
 }
 
 /* button on loginpage */
@@ -62,7 +65,7 @@ text-align:left;
 }
 
 .form-control {
-height: 35px;
+height: 39px;
 }
 
 /* sign up page header */
