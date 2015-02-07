@@ -1,5 +1,8 @@
 #cont {
-  max-width:400px
+  max-width:400px;
+  margin-top:30px;
+  text-align: center;
+  position: absolute;
 }
 
 body {
@@ -32,9 +35,12 @@ body {
   margin: 5%;
 }
 
-
+.form-actions{
+  text-align: center;
+}
 .form-group {
 margin-bottom: 0px;
+text-align:left;
 }
 
 .form-control {
