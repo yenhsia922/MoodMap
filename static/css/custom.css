@@ -30,6 +30,14 @@ body {
 .btn-danger{
   margin-top:0px;
 }
+a.btn-default{
+  margin-top:20px;
+  width:100px;
+}
+a.btn-danger{
+  width:100px;
+}
+
 
 .contedge{
   margin: 5%;
