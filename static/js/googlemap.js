@@ -11,18 +11,18 @@
 
           var marker = new google.maps.Marker({
               position: myCenter,
-              icon: './images/pinkball.png'
+              icon: './images/ar.png'
           });
 
           marker.setMap(map);
 
           google.maps.event.addListener(marker, 'click', function() {
-              map.setZoom(9);
+              map.setZoom(19);
               map.setCenter(marker.getPosition());
           });
 
           var infowindow = new google.maps.InfoWindow({
-              content: "STATUS asdfadsfasfs"
+              content: "A status that is a complete sentence."
           });
 
           infowindow.open(map, marker);
