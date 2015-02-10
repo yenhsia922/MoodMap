@@ -18,38 +18,28 @@
     <![endif]-->
   </head>
   <body>
-    <!--
-      <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">
-            Mood Map
-          </a>
-        </div>
-      </div>
-      </nav>
-      -->
     <div class="container" id = "cont">
-    <img id ="logo" src="images/nogbgwithtext.png" width="75%" height="75%">
-    <form>
-      <div class="form-group" action="Login.php">
+      <img id ="logo" src="images/nogbgwithtext.png" width="66%" height="66%">
+      <form class="form-horizontal" role="form" id="loginform">
+        <!-- Text input-->
         <div class="form-group">
-          <label for="InputUserName"><font color="3e89e6">Username</label>
-          <input type="text" class="form-control form-box" id="InputUserName" placeholder="User Name">
-        </div>
-        <div class="form-group">
-          <label for="InputPassword"><font color="#3e89e6">Password</label>
-          <input type="password" class="form-control password-box" id="InputPassword" placeholder="Password">
+          <label class="control-label" for="username">Username:</label>  
+          <input id="username" type="text" placeholder="Username" class="form-control">  
         </div>
         <br>
-        <div class="form-actions">
-        <a class="btn btn-default" href="MainPage.html" role="submit">Login</a>
-
-    </form>
-    <br><br>
-    <a class="btn btn-default" href="SignUp.html" role="button">Sign Up</a>
-    </div>
-
+        <!-- Password input-->
+        <div class="form-group">
+          <label class="control-label" for="password">Password:</label>
+          <input id="password" type="password" placeholder="Password" class="form-control">
+        </div>
+        <br>
+        <!-- Button -->
+        <div class="form-group">
+          <a class="btn btn-default" href="MainPage.html" role="button">Login</a>
+        </div>
+      </form>
+      <br><br><br>
+      <a class="btn btn-default" href="SignUp.html" role="button">Sign Up</a>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
