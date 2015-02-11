@@ -101,11 +101,43 @@ margin-bottom: 10px;
   background: url(http://link-to-your/image.jpg) no-repeat;
   }
 
+.control-label{
+  margin-top:-10px;
+}
+
+.form-group{
+  margin-top:-7px;
+}
+
 /* sign up page 2 column */
 .left, .right { width: 50%; float: left; }
-.left  { text-align: left; width:170px;}
+.left  { text-align: left; width:195px;}
 .right { text-align: left;  width:195px;margin-left:5px;}
 
+label, input{
+  margin-right:20px;
+}
+
+#submit{
+  color:#ffffff;
+  background-color:#3e89e6;
+  border-color:#3e89e6;
+  padding: 8px;
+  width:100px;
+}
+
+.submit-button{
+text-align: center;
+  position: relative;
+}
+
+#interests{
+  height:68px;
+}
+
+.radio{
+  height:40px;
+}
 .icon-bar{
   background-color: none;
 }

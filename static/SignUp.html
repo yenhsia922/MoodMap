@@ -21,7 +21,7 @@
     <a href="index.html" id="backlink">&laquo; Back</a>
     <div class="container" id = "cont">
       <div id="header-title">Sign Up</div>
-      <form class="form-horizontal"role="form" id="signupform">
+      <form class="form-horizontal"role="form" id="signupform" action="process.php" method="POST">
         <!-- Text input-->
         <div class="form-group">
           <label class="control-label" for="email">Email:</label>  
@@ -34,14 +34,27 @@
         </div>
         <!-- Password input-->
         <div class="form-group">
-          <label class="control-label" for="password">Password: </label>
-          <input id="password" name="password" type="password" placeholder="Password" class="form-control input-md">
+          <div class="left">
+            <label class="control-label" for="password">Password: </label>
+            <input id="password" name="password" type="password" placeholder="Password" class="form-control input-md">
+          </div>
+          <div class="right">
+            <label class="control-label" for="password2">Confirm Password:</label>
+            <input id="password2" name="password2" type="password" placeholder="Re-enter Password" class="form-control input-md" >
+          </div>
         </div>
-        <!-- Password input-->
+        <!-- Text input-->
         <div class="form-group">
-          <label class="control-label" for="password2">Confirm Password:</label>
-          <input id="password2" name="password2" type="password" placeholder="Re-enter Password" class="form-control input-md" >
+          <div class="left">
+            <label class="control-label" for="age">Age:</label>  
+            <input id="age" name="age" type="text" placeholder="Age" class="form-control input-md">
+          </div>
+          <div class="right">
+            <label class="control-label" for="Birthday">Birthday:</label>  
+            <input id="birthday" name="birthday" type="text" placeholder="MM/DD/YY" class="form-control input-md">
+          </div>
         </div>
+
         <!-- Multiple Radios -->
         <div class="form-group">
           <label class="control-label" for="gender">Gender:</label>
@@ -50,24 +63,15 @@
             <input type="radio" name="gender" id="gender-0" value="1" checked="checked">
             Male
             </label>
-          </div>
-          <div class="radio">
             <label for="gender-1">
             <input type="radio" name="gender" id="gender-1" value="2">
             Female
             </label>
-          </div>
-          <div class="radio">
             <label for="gender-2">
             <input type="radio" name="gender" id="gender-2" value="3">
             Other
             </label>
           </div>
-        </div>
-        <!-- Text input-->
-        <div class="form-group">
-          <label class="control-label" for="age">Age:</label>  
-          <input id="age" name="age" type="text" placeholder="Age" class="form-control input-md">
         </div>
         <!-- Textarea -->
         <div class="form-group">
@@ -83,13 +87,19 @@
         <br>
         <!-- Button -->
         <div class="form-group">
-          <a class="btn btn-default" href="index.html" role="button">Sign Up</a>
+          <div class="submit-button">
+          <input type="submit" id="submit"value="register">
+        </div>
         </div>
       </form>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <div id="ack"></div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+
   </body>
 </html>
