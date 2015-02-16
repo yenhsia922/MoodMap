@@ -1,0 +1,232 @@
+#cont {
+  max-width:400px;
+  /* align logo to center*/
+  text-align: center;
+  position: relative;
+}
+
+body {
+  margin: 0%;
+  margin-top: 50px;
+  color:#3e89e6;
+  background-color:#C5EED6;
+  padding-bottom:20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.content{
+    background-color:#C5EED6;
+    margin-top: 100px;
+}
+
+.post-margin .btn{
+  margin-top: -10px;
+}
+
+.profile-container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 2%;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.center-title{
+  text-align: center;
+}
+
+.center-profile-text{
+  margin: 2%;
+  padding-bottom: 30px;
+  color: #0a0a0a;
+}
+
+.bar-nav{
+  background-color: #C5EED6;
+}
+
+#logo {
+  max-width:100%
+}
+
+.title {
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 2px;
+  margin: 0 -10px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #3e89e6;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  background-color: #000;
+}
+
+.navmenu-brand{
+  text-align: center;
+}
+
+#backlink{
+  margin-left: 1%;
+}
+
+.btn{
+  padding: 5px;
+  font-style: 14px;
+}
+
+.bar .btn-link{
+  font-size: 13px;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.btn-block{
+  font-size: 14px;
+}
+
+.btn-default {
+  color:#ffffff;
+  background-color:#3e89e6;
+  border-color:#3e89e6;
+  padding: 8px;
+}
+
+.form-button-space{
+  margin-top: 10px;
+}
+
+/*login button*/
+a.btn-default{
+  width:100px;
+}
+
+#header-title{
+  padding: 10px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+
+.btn-default:hover{
+  background-color: #fffdbe;
+  border-color: #fffdbe;
+  color: #3e89e6;
+  transition: .5s ease all;
+}
+
+.form-box{
+  margin-bottom: 10px;
+}
+
+.password-box{
+  margin-bottom: 30px;
+}
+
+/* button on loginpage */
+.form-actions{
+  text-align: center;
+}
+
+/* login bar*/
+.form-group {
+margin-bottom: 0px;
+text-align:left;
+}
+
+.form-control {
+height: 39px;
+margin-bottom: 10px;
+}
+
+.check-group{
+  text-align:left;
+}
+
+.no-border{
+  border: 0px;
+}
+
+.modal .modal-body {
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+.circular {
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  margin: 0 5% 5% 5%;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  }
+
+.stuff .tab-item{
+    background-color: #C5EED6;
+}
+
+.control-label{
+  margin-top:-10px;
+}
+
+.form-group{
+  margin-top:-7px;
+}
+
+/* sign up page 2 column */
+.left, .right { width: 50%; float: left; }
+.left  { text-align: left; width:195px;}
+.right { text-align: left;  width:195px;margin-left:5px;}
+
+label, input{
+  margin-right:20px;
+}
+
+#submit{
+  color:#ffffff;
+  background-color:#3e89e6;
+  border-color:#3e89e6;
+  padding: 8px;
+  width:100px;
+}
+
+.submit-button{
+text-align: center;
+  position: relative;
+}
+
+#interests{
+  height:68px;
+}
+
+.radio{
+  height:40px;
+}
+.icon-bar{
+  background-color: none;
+}
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0);
+ border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: rgba(0, 0, 0, 0);
+}
