@@ -6,19 +6,63 @@
 }
 
 body {
-  margin: 1%;
+  margin: 0%;
+  margin-top: 50px;
   color:#3e89e6;
   background-color:#C5EED6;
   padding-bottom:20px;
   font-family: 'Raleway', sans-serif;
 }
 
+.content{
+    background-color:#C5EED6;
+    margin-top: 100px;
+}
+
+.post-margin .btn{
+  margin-top: -10px;
+}
+
+.profile-container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 2%;
+}
+
 a:hover{
   text-decoration: none;
 }
 
+.center-title{
+  text-align: center;
+}
+
+.center-profile-text{
+  margin: 2%;
+  padding-bottom: 30px;
+  color: #0a0a0a;
+}
+
+.bar-nav{
+  background-color: #C5EED6;
+}
+
 #logo {
   max-width:100%
+}
+
+.title {
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 2px;
+  margin: 0 -10px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #3e89e6;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -32,6 +76,28 @@ a:hover{
 
 #backlink{
   margin-left: 1%;
+}
+
+.btn{
+  padding: 5px;
+  font-style: 14px;
+}
+
+.bar .btn-link{
+  font-size: 13px;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.btn-block{
+  font-size: 14px;
 }
 
 .btn-default {
@@ -55,6 +121,7 @@ a.btn-default{
   font-weight: 700;
   font-size: 36px;
 }
+
 
 .btn-default:hover{
   background-color: #fffdbe;
@@ -91,15 +158,28 @@ margin-bottom: 10px;
   text-align:left;
 }
 
+.no-border{
+  border: 0px;
+}
+
+.modal .modal-body {
+    max-height: 420px;
+    overflow-y: auto;
+}
+
 .circular {
-  width: 270px;
-  height: 270px;
+  text-align: center;
+  width: 250px;
+  height: 250px;
   margin: 0 5% 5% 5%;
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
-  background: url(http://link-to-your/image.jpg) no-repeat;
   }
+
+.stuff .tab-item{
+    background-color: #C5EED6;
+}
 
 .control-label{
   margin-top:-10px;

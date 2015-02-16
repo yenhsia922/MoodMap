@@ -1,0 +1,42 @@
+/*copied from lab5 idk */
+
+{
+	"friends": [
+		{
+			"name": "Doug Engelbart",
+			"username": "blackmiror",
+			"status": "there is only one demand",
+			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+		},
+		{
+			"name": "Ivan Sutherland",
+			"username": "blackmiror",
+			"status": "there is only one demand",
+			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+		},
+		{
+			"name": "Lucy Suchman",
+			"username": "blackmiror",
+			"status": "there is only one demand",
+			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+		},
+		{
+			"name": "Vannevar Bush",
+			"username": "blackmiror",
+			"status": "there is only one demand",
+			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+		},
+		{
+			"name": "Grace Hopper",
+			"username": "blackmiror",
+			"status": "there is only one demand",
+			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+		},
+		{
+			"name": "Allen Newell",
+			"username": "blackmiror",
+			"status": "there is only one demand",
+			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+		}
+	]
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Mood Map</title>
+    <link rel="icon" type="image/png" href="images/fav.png">
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    
+    <link href="css/ratchet.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/ratchet.js"></script>
+    <style>
+      #cont {
+      max-width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <header class="bar bar-nav">
+      <span class="title"><img src="images/transbgMMlogo.png" alt="logo" style="height: 30px;width:auto"> 
+          Mood Map</span>
+      <button class="btn btn-link pull-right" id="meButton">
+        Me
+      </button>
+    </header>
+
+    <div class="content">
+      <nav class="bar bar-tab">
+        <a class="tab-item" href="#mapModal">
+          <span class="icon icon-home"></span>
+          <span class="tab-label">Map Views</span>
+        </a>
+        <!--<a class="tab-item" href="#profileModal">
+          <span class="icon icon-person"></span>
+          <span class="tab-label">My Profile</span>
+        </a>-->
+        <a class="tab-item" href="#friendsModal">
+          <span class="icon icon-star-filled"></span>
+          <span class="tab-label">Friends</span>
+        </a>
+        <a class="tab-item" href="#searchModal">
+          <span class="icon icon-search"></span>
+          <span class="tab-label">Search</span>
+        </a>
+        <a class="tab-item" data-transition="slide-in" href="#settingsModal">
+          <span class="icon icon-gear"></span>
+          <span class="tab-label">Settings</span>
+        </a>
+      </nav>
+
+          <!-- Settings Modal -->
+    <div id="settingsModal" class="modal">
+      <header class="bar bar-nav">
+        <a class="icon icon-close pull-right" href="#settingsModal"></a>
+        <h1 class="title">Edit Settings</h1>
+      </header>
+
+      <div class="profile-container">
+        <form class="input-group">
+          <input type="text" placeholder="Full name">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Username">
+        </form>
+
+        <h5 class="content-padded">App settings</h5>
+
+        <ul class="table-view">
+          <li class="table-view-cell media">
+            <span class="media-object pull-left icon icon-sound"></span>
+            <div class="media-body">
+              Enable sounds
+            </div>
+            <div class="toggle">
+              <div class="toggle-handle"></div>
+            </div>
+          </li>
+          <li class="table-view-cell media">
+            <span class="media-object pull-left icon icon-person"></span>
+            <div class="media-body">
+              No New Friends
+            </div>
+            <div class="toggle">
+              <div class="toggle-handle"></div>
+            </div>
+          </li>
+        </ul>
+        <div class="content-padded">
+          <button class="btn btn-positive btn-block">Save settings</button>
+        </div>
+        <p>
+          <h5 class="content-padded center-title">or</h5>
+        </p>
+        <div class="content-padded">
+          <button class="btn btn-negative btn-block">Logout</button>
+        </div>
+      </div>
+    </div>
+
+      <!-- Profile Modal -->
+      <div id="profileModal" class="modal">
+        <header class="bar bar-nav">
+          <a class="icon icon-close pull-right" href="#profileModal"></a>
+          <h1 class="title">Profile</h1>
+        </header>
+         <div class="profile-container"> 
+            <h3 class="content-padded center-title">JustAScienceGuy</h3><br>
+            <span class="center-title"><img src="images/bill.jpg" alt="" class="circular"></span>
+            <p class="stuff tab-item">
+              <div class="content-padded center-title"><em>"Breaking it down the ionic bond at a time."</em></div>
+              <div class="center-profile-text">Interests: #something <br>#something <br>#something<br>sdf<br>work</div>
+            </p>
+        </div>
+      </div>
+
+      <!-- Map Modal -->
+      <div id="mapModal" class="modal">
+        <header class="bar bar-nav">
+          <a class="icon icon-close pull-right" href="#mapModal"></a>
+          <h1 class="title">Map Settings</h1>
+        </header>
+         <div class="profile-container"> 
+            <ul class="table-view">
+              <li class="table-view-cell media">
+                <span class="media-object pull-left icon icon-person"></span>
+                <div class="media-body">
+                  View friends only
+                </div>
+                <div class="toggle">
+                  <div class="toggle-handle"></div>
+                </div>
+              </li>
+              <li class="table-view-cell media">
+                <span class="media-object pull-left icon icon-person"></span>
+                <div class="media-body">
+                  View By Interests
+                </div>
+                <div class="toggle">
+                  <div class="toggle-handle"></div>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+
+      <!-- Search Modal -->
+      <div id="searchModal" class="modal">
+        <header class="bar bar-nav">
+          <a class="icon icon-close pull-right" href="#searchModal"></a>
+          <h1 class="title">Search</h1>
+        </header>
+         <div class="profile-container"> 
+            <form>
+              <textarea rows="4" placeholder="Search terms"></textarea>
+              <button class="btn btn-positive btn-block">Search</button>
+            </form>
+        </div>
+      </div>
+
+      <!-- Friends Modal -->
+      <div id="friendsModal" class="modal">
+        <header class="bar bar-nav">
+          <a class="icon icon-close pull-right" href="#friendsModal"></a>
+          <h1 class="title">Friend List</h1>
+        </header>
+         <div class="profile-container"> 
+            <ul class="table-view">
+              <li class="table-view-cell media">
+                <a class="navigate-right">
+                  <span class="media-object pull-left icon icon-person"></span>
+                  <div class="media-body">
+                    Friend 1
+                  </div>
+                </a>
+              </li>
+              <li class="table-view-cell media">
+                <a class="navigate-right">
+                  <span class="media-object pull-left icon icon-person"></span>
+                  <div class="media-body">
+                    Friend 2
+                  </div>
+                </a>
+              </li>
+              <li class="table-view-cell media">
+                <a class="navigate-right">
+                  <span class="media-object pull-left icon icon-person"></span>
+                  <div class="media-body">
+                    Friend 3
+                  </div>
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+
+
+    </div> <!-- end content div-->
+
+      <div class="container" id = "cont">
+       <div id="googleMap" style="width: 100%;height:350px;"></div>
+        <p>
+        <form class="center-profile-text">
+          <textarea rows="2" placeholder="{{myStatus}}"></textarea>
+          <button class="btn btn-positive btn-block post-margin">Post!</button>
+          <!--TODO: should say "update" instead of post if they have a current status-->
+        </form>
+        </p>
+      </div>
+
+
+    </div><!--end content div-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/googlemap.js"></script>
+  </body>
+</html>
