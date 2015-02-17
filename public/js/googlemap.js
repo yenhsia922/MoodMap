@@ -1,6 +1,6 @@
 
       var myCenter = new google.maps.LatLng(32.8799, -117.2358);
-      
+
       function initialize() {
           var mapProp = {
               center: myCenter,
@@ -12,7 +12,7 @@
 
           var marker = new google.maps.Marker({
               position: myCenter,
-              icon: './images/ar.png'
+              icon: './images/pinkball.png'
           });
 
           marker.setMap(map);

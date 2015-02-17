@@ -122,6 +122,13 @@ a.btn-default{
   font-size: 36px;
 }
 
+#header-title2{
+  padding: 10px;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top:-50px;
+}
+
 
 .btn-default:hover{
   background-color: #fffdbe;
