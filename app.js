@@ -13,6 +13,7 @@ var MainPage = require('./routes/MainPage');
 var SignUp = require('./routes/SignUp');
 var accountInfo = require('./routes/accountInfo');
 var user = require('./routes/user');
+var statuus = require('./routes/status');
 // Example route
 //var user = require('./routes/user');
 
@@ -44,6 +45,7 @@ app.get('/MainPage', MainPage.viewMap);
 app.get('/SignUp', SignUp.signUpForm);
 app.get('/accountInfo', accountInfo.changeInfo);
 app.get('/user', user.updateUser);
+app.get('/status', statuus.updateStatuses);
 // Example route
 // app.get('/users', user.list);
 
