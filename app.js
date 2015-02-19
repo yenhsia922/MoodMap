@@ -12,6 +12,7 @@ var index = require('./routes/index');
 var MainPage = require('./routes/MainPage');
 var SignUp = require('./routes/SignUp');
 var accountInfo = require('./routes/accountInfo');
+var statuus = require('./routes/status');
 // Example route
 //var user = require('./routes/user');
 
@@ -42,9 +43,10 @@ app.get('/', index.view);
 app.get('/MainPage', MainPage.viewMap);
 app.get('/SignUp', SignUp.signUpForm);
 app.get('/accountInfo', accountInfo.changeInfo);
+app.get('/status', statuus.updateStatuses);
 // Example route
 // app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
-  console.log('Express server listening on port ' + app.get('port'));
+  console.log('Magic is happening on port ' + app.get('port') + ' ;)');
 });
