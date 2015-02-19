@@ -1,0 +1,59 @@
+
+[
+	{
+		"userId": 0,
+		"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+		"currentStatus": "testing",
+		"timestamp": "i am drinking",
+		"latitude": "32.8790",
+		"longitude": "-117.2360"
+	},
+	{
+	  	"userId": 1,
+	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+		"currentStatus": "testing",
+		"timestamp": "cool space",
+		"latitude": "32.8788",
+		"longitude": "-117.2355"
+	},
+	{
+	  	"userId": 2,
+	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+		"currentStatus": "im hungry",
+		"timestamp": "TESTING",
+		"latitude": "32.8758",
+		"longitude": "-117.2368"
+	},
+	{
+	  	"userId": 3,
+	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+		"currentStatus": "testing",
+		"timestamp": "i have an extra soda first one here gets it",
+		"latitude": "32.8788",
+		"longitude": "-117.2351"
+	},
+	{
+	  	"userId": 4,
+	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+		"currentStatus": "testing",
+		"timestamp": "basketball?",
+		"latitude": "32.8778",
+		"longitude": "-117.2381"
+	},
+	{
+	  	"userId": 5,
+	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+		"currentStatus": "testing",
+		"timestamp": "i like snails",
+		"latitude": "32.8778",
+		"longitude": "-117.2351"
+	},
+	{
+	  	"userId": 6,
+	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+		"currentStatus": "at the village!",
+		"timestamp": "time",
+		"latitude": "32.8885",
+		"longitude": "-117.2416"
+	}
+]
