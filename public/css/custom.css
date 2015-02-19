@@ -48,7 +48,8 @@ a:hover{
 }
 
 #logo {
-  max-width:100%
+  max-width:100%;
+  margin-top: -30px;
 }
 
 .title {
@@ -117,6 +118,7 @@ a.btn-default{
 }
 
 #header-title{
+  margin-top:-60px;
   padding: 10px;
   font-weight: 700;
   font-size: 36px;
@@ -127,6 +129,13 @@ a.btn-default{
   font-weight: 700;
   font-size: 36px;
   margin-top:-50px;
+}
+
+#header-title3{
+  margin-top:-30px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 36px;
 }
 
 

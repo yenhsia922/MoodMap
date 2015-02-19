@@ -12,6 +12,7 @@ var index = require('./routes/index');
 var MainPage = require('./routes/MainPage');
 var SignUp = require('./routes/SignUp');
 var accountInfo = require('./routes/accountInfo');
+var user = require('./routes/user');
 // Example route
 //var user = require('./routes/user');
 
@@ -42,6 +43,7 @@ app.get('/', index.view);
 app.get('/MainPage', MainPage.viewMap);
 app.get('/SignUp', SignUp.signUpForm);
 app.get('/accountInfo', accountInfo.changeInfo);
+app.get('/user', user.updateUser);
 // Example route
 // app.get('/users', user.list);
 
