@@ -9,10 +9,9 @@
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
     <link href="/css/cosmo.min.css" rel="stylesheet">
-    <link href="/css/custom.css" rel="stylesheet">
     <link href="http://jasny.github.io/bootstrap/dist/css/jasny-bootstrap.min.css" rel="stylesheet">
     <link href="https://jasny.github.io/bootstrap/examples/navmenu-reveal/navmenu-reveal.css" rel="stylesheet">
-
+     <link href="/css/custom.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,12 +26,12 @@
   </head>
   <body>
     <div class="navmenu navmenu-default navmenu-fixed-right offcanvas">
-      <a class="navmenu-brand" href="#">Person's name</a>
+      <a class="navmenu-brand" href="#"><h2>Person's name</h2></a>
       <ul class="nav navmenu-nav">
         <span><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.0.160.160/p160x160/1483207_10153627456970241_1882343623_n.jpg?oh=721935cf649682fb9a7adfee909183a3&oe=554BA7AB&__gda__=1431919654_96d0cbe6628b5ee1bce6bde2c64f6e72" alt="" class="circular"></span>
       </ul>
       <ul class="nav navmenu-nav">
-        <li><a href="#">Friends</a></li>
+        <li><a href="/friends" onclick="popup(this.href,'myWindow','500','650','yes');return false">Friends</a></li>
         <li><a href="/accountInfo" onclick="popup(this.href,'myWindow','500','650','yes');return false">Account</a></li>
         <li><a href="/">Logout</a></li>
       </ul>
@@ -64,6 +63,7 @@
       </form>
       </p>
     </div>
+	<div class="container" id = "cont">
    <div class="image-button">
     <div><h style="margin-left:10px"><b> Select Emoji </b></h></div>
     <button id="emoji1" style="position:relative; margin-left:10px"><img src="images/emoji/emoji1.png"onclick="hideBorder('emoji1')"alt="1" style="height:30px;width:30px;"></button>
@@ -89,6 +89,7 @@
     <button id="emoji19"style="position:relative; margin-left:10px"><img src="images/emoji/emoji19.png" onclick="hideBorder('emoji19')" alt="19" style="height:30px;width:30px"></button>
     <button id="emoji20"style="position:relative; margin-left:10px"><img src="images/emoji/emoji20.png" onclick="hideBorder('emoji20')" alt="20" style="height:30px;width:30px"></button>
   </div> 
+  <div class="container">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

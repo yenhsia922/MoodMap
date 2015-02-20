@@ -14,6 +14,7 @@ var SignUp = require('./routes/SignUp');
 var accountInfo = require('./routes/accountInfo');
 var user = require('./routes/user');
 var statuus = require('./routes/status');
+var friends = require('./routes/friends');
 // Example route
 //var user = require('./routes/user');
 
@@ -46,6 +47,7 @@ app.get('/SignUp', SignUp.signUpForm);
 app.get('/accountInfo', accountInfo.changeInfo);
 app.get('/user', user.updateUser);
 app.get('/status', statuus.updateStatuses);
+app.get('/friends', friends.viewFriends);
 // Example route
 // app.get('/users', user.list);
 
