@@ -2,58 +2,71 @@
 [
 	{
 		"userId": 0,
+		"username": "mojojo",
 		"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
 		"currentStatus": "testing",
 		"timestamp": "i am drinking",
 		"latitude": "32.8790",
-		"longitude": "-117.2360"
+		"longitude": "-117.2360",
+		"gender": "female"
 	},
 	{
 	  	"userId": 1,
+	  	"username": "mojojo",
 	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
 		"currentStatus": "testing",
 		"timestamp": "cool space",
 		"latitude": "32.8788",
-		"longitude": "-117.2355"
+		"longitude": "-117.2355",
+		"gender": "female"
 	},
 	{
 	  	"userId": 2,
+	  	"username": "mojojo",
 	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
 		"currentStatus": "im hungry",
 		"timestamp": "TESTING",
 		"latitude": "32.8758",
-		"longitude": "-117.2368"
+		"longitude": "-117.2368",
+		"gender": "female"
 	},
 	{
 	  	"userId": 3,
+	  	"username": "mojojo",
 	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
-		"currentStatus": "testing",
+		"currentStatus": "abcd",
 		"timestamp": "i have an extra soda first one here gets it",
 		"latitude": "32.8788",
 		"longitude": "-117.2351"
 	},
 	{
 	  	"userId": 4,
+	  	"username": "mojojo",
 	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
-		"currentStatus": "testing",
+		"currentStatus": "hahahahaha",
 		"timestamp": "basketball?",
 		"latitude": "32.8778",
-		"longitude": "-117.2381"
+		"longitude": "-117.2381",
+		"gender": "female"
 	},
 	{
 	  	"userId": 5,
+	  	"username": "mojojo",
 	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
-		"currentStatus": "testing",
+		"currentStatus": "teslol",
 		"timestamp": "i like snails",
 		"latitude": "32.8778",
-		"longitude": "-117.2351"
+		"longitude": "-117.2351",
+		"gender": "male"
 	},
 	{
 	  	"userId": 6,
+	  	"username": "mojojo",
 	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
 		"currentStatus": "at the village!",
 		"timestamp": "time",
 		"latitude": "32.8885",
-		"longitude": "-117.2416"
+		"longitude": "-117.2416",
+		"gender": "female"
 	}
 ]

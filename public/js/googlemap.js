@@ -5,7 +5,10 @@
       var contentString;
       var lat;
       var lng;
-      var markerArray = [];
+      var marker;
+      var i;
+      var infowindow;
+      var markerArray = new Array();
       var onlineUsers = new Array();
 
       $(document).ready(function() {
@@ -30,9 +33,9 @@
         }
 
         function error(e) {
-          console.log("error code:" + e.code + ' message: ' + e.message );
+          console.log("Error code:" + e.code + '; Message: ' + e.message );
           var myCenter = new google.maps.LatLng(32.8799, -117.2358);
-          console.log("passing default into success");
+          console.log("Failed to get your location. Passing in default coordinates.");
           lat  = 32.8799;
           lng =  -117.2358;
           success(0);
@@ -115,14 +118,18 @@
                     mapOptions);
 
 
-            var marker = new google.maps.Marker({
+            marker = new google.maps.Marker({
                 position: myLocation,
                 map: map,
                 /*icon: './images/ar.png',*/
                 title:"you are here"
             });
             
-          var infowindow = new google.maps.InfoWindow;
+          infowindow = new google.maps.InfoWindow({
+            content: "Default"
+             });
+
+          //linkInfoWindow(marker, map, infowindow, 'Default status');
           infowindow.open(map, marker);
 
           $.get("/user/", userCallBack);
@@ -140,21 +147,6 @@
               console.log(document.getElementById('inputStatus').value);
             });
 
-          /*var infowindow = new google.maps.InfoWindow({
-          content:"Other people's status to show on click"
-          });
-      
-          google.maps.event.addListener(marker, 'click', function() {
-          infowindow.open(map,marker);
-          });
-      
-          reference here http://www.w3schools.com/googleAPI/google_maps_ref.asp
-          */
-           
-
-            addOtherMarkers();
-
-            function addOtherMarkers(){
               createUserList();
 
               function createUserList(){
@@ -165,35 +157,39 @@
               }
 
               function callbackData(result){
-                for (var i = 0; i < result.length; i++){
+                
+                for (i = 0; i < result.length; i++){
 
-                  var infowindow = new google.maps.InfoWindow({
+                  infowindow = new google.maps.InfoWindow({
                     content: result[i].currentStatus
                   });
 
-                  var markerx = new google.maps.Marker({
+                  var icon = {
+                    url: result[i].image,
+                    scaledSize: new google.maps.Size(30,30)
+                  };
+
+                  marker = new google.maps.Marker({
                     position: new google.maps.LatLng(result[i].latitude, result[i].longitude),
                     map: map,
-                    icon: {
-                      path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW, //make into thosep eople icons
-                      fillColor: "#FF369B",
-                      fillOpacity: .7,
-                      scale: 5,
-                      strokeWeight: 1
-                    },
-                    title: "'sdfsdf'"
-
+                    icon: icon,
+                    title: result[i].timestamp
                   });
 
-                  onlineUsers.push(result[1]);
+                  linkInfoWindow(marker, map, infowindow, result[i].username, result[i].currentStatus, result[i].userId);
                 }
 
-                  google.maps.event.addListener(markerx, 'click', function(){
-                    infowindow.open(map, markerx);
-                  });
+            
 
-              }
-            }
+              }//end callbackdata
+          function linkInfoWindow(marker, map, infowindow, username, status, id){
+              google.maps.event.addListener(marker, 'click', function() {
+              infowindow.setContent("<h6 style='min-width: 130px;'>" +
+                      "<h5 style='color: #33cc66; text-transform: uppercase;'>" 
+                      + username + "</h5><p>" + status + "</p></h6>");
+              infowindow.open(map,marker);
+            });
+          }
 
             google.maps.event.addListener(marker, 'click', function() {
               infowindow.open(map,marker);
