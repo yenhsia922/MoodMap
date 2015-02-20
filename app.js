@@ -14,6 +14,7 @@ var SignUp = require('./routes/SignUp');
 var accountInfo = require('./routes/accountInfo');
 var user = require('./routes/user');
 var statuus = require('./routes/status');
+var friends = require('./routes/friends');
 // Example route
 //var user = require('./routes/user');
 
