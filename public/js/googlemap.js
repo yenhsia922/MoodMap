@@ -125,12 +125,10 @@
                 title:"you are here"
             });
             
-          infowindow = new google.maps.InfoWindow({
-            content: "Default"
-             });
+          infowindow = new google.maps.InfoWindow;
 
           //linkInfoWindow(marker, map, infowindow, 'Default status');
-          infowindow.open(map, marker);
+//          infowindow.open(map, marker);
 
           $.get("/user/", userCallBack);
 
@@ -145,6 +143,7 @@
             'click', function(){
               infowindow.setContent(contentString + "   " + document.getElementById('inputStatus').value + "  ");
               console.log(document.getElementById('inputStatus').value);
+		infowindow.open(map, marker);
             });
 
               createUserList();
@@ -157,7 +156,7 @@
               }
 
               function callbackData(result){
-                
+		                
                 for (i = 0; i < result.length; i++){
 
                   infowindow = new google.maps.InfoWindow({
@@ -169,14 +168,14 @@
                     scaledSize: new google.maps.Size(35,35)
                   };
 
-                  marker = new google.maps.Marker({
+                  var markerx = new google.maps.Marker({
                     position: new google.maps.LatLng(result[i].latitude, result[i].longitude),
                     map: map,
                     icon: icon,
                     title: result[i].timestamp
                   });
 
-                  linkInfoWindow(marker, map, infowindow, result[i].username, result[i].currentStatus, result[i].userId);
+                  linkInfoWindow(markerx, map, infowindow, result[i].username, result[i].currentStatus, result[i].userId);
                 }
 
             
