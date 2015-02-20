@@ -47,6 +47,7 @@ app.get('/SignUp', SignUp.signUpForm);
 app.get('/accountInfo', accountInfo.changeInfo);
 app.get('/user', user.updateUser);
 app.get('/status', statuus.updateStatuses);
+app.get('/friends', friends.viewFriends);
 // Example route
 // app.get('/users', user.list);
 
