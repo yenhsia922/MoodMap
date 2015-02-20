@@ -10,5 +10,21 @@ exports.viewFriends = function(req, res){
 var friends = require('../friends.json');
 
 exports.viewFriends = function(req, res){
-	res.render('friends');
+//	res.json('friends');
+//};
+
+	res.render('friends', {
+    'friends': [
+      { 'name': 'C',
+        'image': 'https://tse1.mm.bing.net/th?&id=HN.607997688310989954&w=300&h=300&c=0&pid=1.9&rs=0&p=0'
+      },
+      { 'name': 'Y',
+        'image': 'https://tse1.mm.bing.net/th?&id=HN.607997688310989954&w=300&h=300&c=0&pid=1.9&rs=0&p=0'
+      },
+      { 'name': 'J',
+        'image': 'https://tse1.mm.bing.net/th?&id=HN.607997688310989954&w=300&h=300&c=0&pid=1.9&rs=0&p=0'
+      }
+    ]
+  });
 };
+
