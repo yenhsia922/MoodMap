@@ -2,8 +2,8 @@
 [
 	{
 		"userId": 0,
-		"username": "mojojo",
-		"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+		"username": "mojojf3o",
+		"image": "http://ak2.polyvoreimg.com/cgi/img-thing/size/l/tid/105256559.jpg",
 		"currentStatus": "testing",
 		"timestamp": "i am drinking",
 		"latitude": "32.8790",
@@ -13,7 +13,7 @@
 	{
 	  	"userId": 1,
 	  	"username": "mojojo",
-	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+	  	"image": "http://ak1.polyvoreimg.com/cgi/img-thing/size/l/tid/101049235.jpg",
 		"currentStatus": "testing",
 		"timestamp": "cool space",
 		"latitude": "32.8788",
@@ -22,8 +22,8 @@
 	},
 	{
 	  	"userId": 2,
-	  	"username": "mojojo",
-	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+	  	"username": "mojosjo",
+	  	"image": "http://ak1.polyvoreimg.com/cgi/img-thing/size/l/tid/56890045.jpg",
 		"currentStatus": "im hungry",
 		"timestamp": "TESTING",
 		"latitude": "32.8758",
@@ -32,8 +32,8 @@
 	},
 	{
 	  	"userId": 3,
-	  	"username": "mojojo",
-	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+	  	"username": "mojsda",
+	  	"image": "http://ak2.polyvoreimg.com/cgi/img-thing/size/l/tid/104061062.jpg",
 		"currentStatus": "abcd",
 		"timestamp": "i have an extra soda first one here gets it",
 		"latitude": "32.8788",
@@ -41,18 +41,28 @@
 	},
 	{
 	  	"userId": 4,
-	  	"username": "mojojo",
-	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+	  	"username": "dfdfs",
+	  	"image": "http://ak1.polyvoreimg.com/cgi/img-thing/size/l/tid/101234039.jpg",
 		"currentStatus": "hahahahaha",
 		"timestamp": "basketball?",
-		"latitude": "32.8778",
-		"longitude": "-117.2381",
+		"latitude": "32.8799",
+		"longitude": "-117.2371",
+		"gender": "female"
+	},
+	{
+	  	"userId": 7,
+	  	"username": "dfdfs",
+	  	"image": "http://ak1.polyvoreimg.com/cgi/img-thing/size/l/tid/101234039.jpg",
+		"currentStatus": "hahahahaha",
+		"timestamp": "basketball?",
+		"latitude": "32.883",
+		"longitude": "-117.2390",
 		"gender": "female"
 	},
 	{
 	  	"userId": 5,
-	  	"username": "mojojo",
-	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+	  	"username": "mojs4ojo",
+	  	"image": "http://ak2.polyvoreimg.com/cgi/img-thing/size/l/tid/106474181.jpg",
 		"currentStatus": "teslol",
 		"timestamp": "i like snails",
 		"latitude": "32.8778",
@@ -61,8 +71,8 @@
 	},
 	{
 	  	"userId": 6,
-	  	"username": "mojojo",
-	  	"image": "http://www.colourlovers.com/images/badges/p/92/92095_Giant_Goldfish.png",
+	  	"username": "mojogsjo",
+	  	"image": "http://ak2.polyvoreimg.com/cgi/img-thing/size/l/tid/15727530.jpg",
 		"currentStatus": "at the village!",
 		"timestamp": "time",
 		"latitude": "32.8885",

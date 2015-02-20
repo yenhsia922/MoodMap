@@ -31,6 +31,7 @@
         <span><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.0.160.160/p160x160/1483207_10153627456970241_1882343623_n.jpg?oh=721935cf649682fb9a7adfee909183a3&oe=554BA7AB&__gda__=1431919654_96d0cbe6628b5ee1bce6bde2c64f6e72" alt="" class="circular"></span>
       </ul>
       <ul class="nav navmenu-nav">
+        <li><a href="#" data-toggle="modal" data-target="#myModal">Test Modal</a></li>
         <li><a href="/friends" onclick="popup(this.href,'myWindow','500','650','yes');return false">Friends</a></li>
         <li><a href="/accountInfo" onclick="popup(this.href,'myWindow','500','650','yes');return false">Account</a></li>
         <li><a href="/">Logout</a></li>
@@ -89,6 +90,29 @@
     <button id="emoji19"style="position:relative; margin-left:10px"><img src="images/emoji/emoji19.png" onclick="hideBorder('emoji19')" alt="19" style="height:30px;width:30px"></button>
     <button id="emoji20"style="position:relative; margin-left:10px"><img src="images/emoji/emoji20.png" onclick="hideBorder('emoji20')" alt="20" style="height:30px;width:30px"></button>
   </div> 
+
+<div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Friends</h4>
+        </div>
+        <div class="modal-body">
+          None
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   <div class="container">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

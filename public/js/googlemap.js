@@ -166,7 +166,7 @@
 
                   var icon = {
                     url: result[i].image,
-                    scaledSize: new google.maps.Size(30,30)
+                    scaledSize: new google.maps.Size(35,35)
                   };
 
                   marker = new google.maps.Marker({
@@ -184,9 +184,9 @@
               }//end callbackdata
           function linkInfoWindow(marker, map, infowindow, username, status, id){
               google.maps.event.addListener(marker, 'click', function() {
-              infowindow.setContent("<h6 style='min-width: 130px;'>" +
-                      "<h5 style='color: #33cc66; text-transform: uppercase;'>" 
-                      + username + "</h5><p>" + status + "</p></h6>");
+              infowindow.setContent("<h6 style='min-width: 120px;'>" +
+              "<h5 style='text-transform: uppercase;'><a style='color: #33cc66;' href='http://google.com'>" 
+                      + username + "</a></h5>" + status + "</h6>");
               infowindow.open(map,marker);
             });
           }
