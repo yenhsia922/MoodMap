@@ -31,7 +31,7 @@
         <span><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.0.160.160/p160x160/1483207_10153627456970241_1882343623_n.jpg?oh=721935cf649682fb9a7adfee909183a3&oe=554BA7AB&__gda__=1431919654_96d0cbe6628b5ee1bce6bde2c64f6e72" alt="" class="circular"></span>
       </ul>
       <ul class="nav navmenu-nav">
-        <li><a href="#" data-toggle="modal" data-target="#myModal">Test Modal</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#myFriendsModal">Test Modal</a></li>
         <li><a href="/friends" onclick="popup(this.href,'myWindow','500','650','yes');return false">Friends</a></li>
         <li><a href="/accountInfo" onclick="popup(this.href,'myWindow','500','650','yes');return false">Account</a></li>
         <li><a href="/">Logout</a></li>
@@ -44,10 +44,14 @@
       <span class="icon-bar"></span>
       </button>
     </div>
+
     <div class="container" id = "cont">
-      <div id="header-title"><span id="meButton" href="#"><img src="images/transbgMMlogo.png" alt="logo" style="height:40px;width:auto"> 
+      <div id="header-title">
+        <span id="meButton" href="#" data-toggle="tooltip" data-placement="bottom" title="Clicking here returns the map to you">
+        <img src="images/transbgMMlogo.png" alt="logo" style="height:40px;width:auto"> 
         Mood Map</span>
       </div>
+
       <div id="googleMap" style="width: 100%;height:400px;"></div>
       <p>
       <form>
@@ -91,9 +95,39 @@
     <button id="emoji20"style="position:relative; margin-left:10px"><img src="images/emoji/emoji20.png" onclick="hideBorder('emoji20')" alt="20" style="height:30px;width:30px"></button>
   </div> 
 
+  <div class="container">
+  <!-- User Profiles -->
+  <div class="modal fade" id="viewProfileModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">{{username}}Username Placeholder</h4>
+        </div>
+        <div class="modal-body">
+          {{image}}
+          <img src="http://www.squarebooks.com/files/squarebooks/Facebook-no-profile-picture-icon-620x389.jpg" alt=""/>
+          <p class="modalstatus">
+            "Status here {{currentStatus}}"
+          </p>
+          <p>
+            Previous statuses?
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="alert">Add Friend</button>
+          <button type="button" class="btn btn-default" data-dismiss="alert">Send Message</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODALS HERE -->
 <div class="container">
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <!-- My Friends -->
+  <div class="modal fade" id="myFriendsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -105,12 +139,14 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<!--end modals-->
+
 
 
   <div class="container">

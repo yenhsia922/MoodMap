@@ -172,18 +172,19 @@
                     title: result[i].timestamp
                   });
 
-                  linkInfoWindow(markerx, map, infowindow, result[i].username, result[i].currentStatus, result[i].userId);
+                  linkInfoWindow(markerx, map, infowindow, result[i].username, result[i].currentStatus, result[i].userId, result[i].latitude, result[i].longitude);
                 }
 
             
-
               }//end callbackdata
-          function linkInfoWindow(marker, map, infowindow, username, status, id){
+
+          function linkInfoWindow(marker, map, infowindow, username, status, id, latitude, longitude){
               google.maps.event.addListener(marker, 'click', function() {
               infowindow.setContent("<h6 style='min-width: 120px;'>" +
-              "<h5 style='text-transform: uppercase;'><a style='color: #33cc66;' href='http://google.com'>" 
-                      + username + "</a></h5>" + status + "<br><a href='#' data-toggle='modal' data-target='#myModal'>Test Modal</a></h6>");
+              "<h6 style='text-transform: uppercase;'><span style='color: #33cc66;'><b>" 
+                      + username + "</b></span></h6><i>''" + status + "''</i><br><a href='#' data-toggle='modal' data-target='#viewProfileModal'><h6>See Profile</h6></a></h6>");
               infowindow.open(map,marker);
+              console.log(latitude + " / " + longitude);
             });
           }
 
@@ -196,6 +197,7 @@
 
             function returnToCenter(e){
                 console.log("Returned you to center.");
+                map.setZoom(17);
                 map.panTo(marker.getPosition());
             }
         }

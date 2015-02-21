@@ -50,7 +50,7 @@
 		"gender": "female"
 	},
 	{
-	  	"userId": 7,
+	  	"userId": 5,
 	  	"username": "dfdfs",
 	  	"image": "http://ak1.polyvoreimg.com/cgi/img-thing/size/l/tid/101234039.jpg",
 		"currentStatus": "hahahahaha",
@@ -60,7 +60,7 @@
 		"gender": "female"
 	},
 	{
-	  	"userId": 5,
+	  	"userId": 6,
 	  	"username": "mojs4ojo",
 	  	"image": "http://ak2.polyvoreimg.com/cgi/img-thing/size/l/tid/106474181.jpg",
 		"currentStatus": "teslol",
@@ -70,13 +70,124 @@
 		"gender": "male"
 	},
 	{
-	  	"userId": 6,
+	  	"userId": 7,
 	  	"username": "mojogsjo",
 	  	"image": "http://ak2.polyvoreimg.com/cgi/img-thing/size/l/tid/15727530.jpg",
-		"currentStatus": "at the village!",
+		"currentStatus": "at the village?!",
 		"timestamp": "time",
 		"latitude": "32.8885",
 		"longitude": "-117.2416",
 		"gender": "female"
+	},
+	{
+	  	"userId": 8,
+	  	"username": "Timmy",
+	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.8865",
+		"longitude": "-117.2406",
+		"gender": "female"
+	},
+	{
+	  	"userId": 9,
+	  	"username": "Timmy",
+	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.88595",
+		"longitude": "-117.2430",
+		"gender": "female"
+	},
+	{
+	  	"userId": 10,
+	  	"username": "Timmy",
+	  	"image": "http://media.tumblr.com/tumblr_lmarmbrDQq1qbee1s.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.878835",
+		"longitude": "-117.242489",
+		"gender": "female"
+	},
+	{
+	  	"userId": 11,
+	  	"username": "Timmy",
+	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.8867",
+		"longitude": "-117.2380",
+		"gender": "female"
+	},
+	{
+	  	"userId": 12,
+	  	"username": "Timmy",
+	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.8857",
+		"longitude": "-117.2406",
+		"gender": "female"
+	},
+	{
+	  	"userId": 12,
+	  	"username": "Timmy",
+	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.8838",
+		"longitude": "-117.2405",
+		"gender": "female"
+	},
+	{
+	  	"userId": 13,
+	  	"username": "Timmy",
+	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.8855",
+		"longitude": "-117.2438",
+		"gender": "female"
+	},
+	{
+	  	"userId": 14,
+	  	"username": "Timmy",
+	  	"image": "http://media.tumblr.com/tumblr_lmaro5OFpM1qbee1s.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.8840",
+		"longitude": "-117.2429",
+		"gender": "female"
+	},
+	{
+	  	"userId": 15,
+	  	"username": "Timmy",
+	  	"image": "https://s-media-cache-ak0.pinimg.com/736x/99/86/56/998656fc4e676f18d129f98f3e2ced3f.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.884241",
+		"longitude": "-117.240204",
+		"gender": "female"
+	},
+	{
+	  	"userId": 16,
+	  	"username": "Timmy",
+	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/22/da/dc/22dadc42092df4c385cb3ca96c0e1ff8.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.8853",
+		"longitude": "-117.2411",
+		"gender": "female"
+	},
+	{
+	  	"userId": 17,
+	  	"username": "Timmy",
+	  	"image": "https://s-media-cache-ak0.pinimg.com/736x/f7/95/b7/f795b7de52111f18bda9a1ced2cced88.jpg",
+		"currentStatus": "im a g",
+		"timestamp": "time",
+		"latitude": "32.8852",
+		"longitude": "-117.2390",
+		"gender": "female"
 	}
+
 ]
