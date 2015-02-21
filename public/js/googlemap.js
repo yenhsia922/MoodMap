@@ -125,10 +125,7 @@
                 title:"you are here"
             });
             
-          infowindow = new google.maps.InfoWindow;
-
-          //linkInfoWindow(marker, map, infowindow, 'Default status');
-//          infowindow.open(map, marker);
+          var myInfowindow = new google.maps.InfoWindow;
 
           $.get("/user/", userCallBack);
 
@@ -136,14 +133,14 @@
 
                 userArray.push(result['user']);
                 console.log(userArray[0]);
-                contentString = '<div class="myName">' + '<p><b>' + userArray[0]+ '</b></h1>'+'</div>';
+                contentString = '<div class="myName">' + '<p><b>' + userArray[0]+ '</b></p>'+'</div>';
             }
 
           google.maps.event.addDomListener(document.getElementById('post'),
             'click', function(){
-              infowindow.setContent(contentString + "   " + document.getElementById('inputStatus').value + "  ");
+              myInfowindow.setContent(contentString + "   " + document.getElementById('inputStatus').value + "  ");
               console.log(document.getElementById('inputStatus').value);
-		infowindow.open(map, marker);
+              myInfowindow.open(map, marker);
             });
 
               createUserList();
@@ -156,7 +153,7 @@
               }
 
               function callbackData(result){
-		                
+                    
                 for (i = 0; i < result.length; i++){
 
                   infowindow = new google.maps.InfoWindow({
@@ -185,13 +182,13 @@
               google.maps.event.addListener(marker, 'click', function() {
               infowindow.setContent("<h6 style='min-width: 120px;'>" +
               "<h5 style='text-transform: uppercase;'><a style='color: #33cc66;' href='http://google.com'>" 
-                      + username + "</a></h5>" + status + "</h6>");
+                      + username + "</a></h5>" + status + "<br><a href='#' data-toggle='modal' data-target='#myModal'>Test Modal</a></h6>");
               infowindow.open(map,marker);
             });
           }
 
             google.maps.event.addListener(marker, 'click', function() {
-              infowindow.open(map,marker);
+              myInfowindow.open(map,marker);
             });
 
             $('#meButton').click(returnToCenter);
