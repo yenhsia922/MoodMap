@@ -251,14 +251,14 @@ text-align: center;
   background-color: white;
 }
 
+
+
 .circular {
 width: 150px;
 height:150px;
 }
 
-.offcanvas.in {
-  text-align: right;
-}
+
 
 .infowindow{
   padding: 10px;
@@ -272,6 +272,6 @@ height:150px;
   }
   
 .navmenu-brand {
-  text-align: right;
+  text-align: left;
   font-family: Raleway, sans-serif;
 }
