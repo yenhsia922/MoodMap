@@ -249,6 +249,7 @@ text-align: center;
 
 .offcanvas.in {
   background-color: white;
+  max-width: 250px;
 }
 
 
