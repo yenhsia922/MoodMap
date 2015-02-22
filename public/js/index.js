@@ -9,18 +9,6 @@ jQuery(function () {
     jQuery('[data-toggle=tooltip]').tooltip();
 });
 
-
-
-$(document).ready(function() {
-    $("#alerthide").hide();
-	console.log("Hided alert");
-})
-
-$("#addfriend").click(function(){
-	console.log("cliced");
-    $("#friendAdded").show();
-});
-
 /*Will show user's username if exists*/
 $('#sendMessageModal').on('show.bs.modal', function (event) {
   var button = $(event.relatedTarget) // Button that triggered the modal
