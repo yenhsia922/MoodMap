@@ -11,10 +11,20 @@
       var markerArray = new Array();
       var onlineUsers = new Array();
 
-      $(document).ready(function() {
+       $(document).ready(function() {
         //getLocation();
         console.log("Javascript connected.");
-      })
+        $(".expanded").hide();
+        
+        $("#open, #post").click(function() {
+        $(this).parent().children(".expanded, .collapsed").toggle();
+        });
+        
+        $("#post").click(function(){
+            $(".expanded").hide();
+            $(".collapsed").show();
+        });
+      });
 
       function getLocation(){
       {

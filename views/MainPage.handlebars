@@ -68,10 +68,10 @@
       </form>
       </p>
     </div>
-	<div class="container" id = "cont">
+  <div class="container" id = "cont">
+    <span class="expanded">
    <div class="image-button">
-    <div><h style="margin-left:10px"><b> Select Emoji </b></h></div>
-    <button id="emoji1" style="position:relative; margin-left:10px"><img src="images/emoji/emoji1.png"onclick="hideBorder('emoji1')"alt="1" style="height:30px;width:30px;"></button>
+    <button id="emoji1" style="position:relative; margin-left:10px"><img src="images/emoji/emoji1.png" onclick="hideBorder('emoji1')"alt="1" style="height:30px;width:30px;"></button>
     <button id="emoji2" style="position:relative; margin-left:10px"><img src="images/emoji/emoji2.png" onclick="hideBorder('emoji2')" alt="2" style="height:30px;width:30px"></button>
     <button id="emoji3"style="position:relative; margin-left:10px"><img src="images/emoji/emoji3.png" onclick="hideBorder('emoji3')" alt="3" style="height:30px;width:30px"></button>
     <button id="emoji4"style="position:relative; margin-left:10px"><img src="images/emoji/emoji4.png" onclick="hideBorder('emoji4')" alt="4" style="height:30px;width:30px"></button>
@@ -93,7 +93,12 @@
     <button id="emoji18"style="position:relative; margin-left:10px"><img src="images/emoji/emoji18.png" onclick="hideBorder('emoji18')" alt="18" style="height:30px;width:30px"></button>
     <button id="emoji19"style="position:relative; margin-left:10px"><img src="images/emoji/emoji19.png" onclick="hideBorder('emoji19')" alt="19" style="height:30px;width:30px"></button>
     <button id="emoji20"style="position:relative; margin-left:10px"><img src="images/emoji/emoji20.png" onclick="hideBorder('emoji20')" alt="20" style="height:30px;width:30px"></button>
-  </div> 
+
+</div> 
+</span>
+
+<span class="collapsed"><img src="images/emoji/emoji1.png"style="height:30px;width:30px;"></span>
+<a href="javascript:void(0)" class="collapsed" id="open">Select Emoji</a>
 
 
   <!--MODALS HERE-->
