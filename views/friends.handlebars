@@ -26,10 +26,15 @@
 	#each{
 	height:50px;
 	}
+	#red {
+	background-color: rgb(255, 87, 87);
+  
+  color: white;
+	}
 	</style>
   </head>
   <body>
-    <div class="container" id = "imgcontainter">
+    <div class="container-fluid" id = "imgcontainter">
 
 	<h1 id ="title">Friends</h1>
 		<div class="row">
@@ -38,10 +43,10 @@
   <div class="col-lg-4 col-sm-6 col-xs-12" id="imgs">
   <a href="#" class="thumbnail">
   <h3 id ="title">{{name}}</h3>
-             <img src="{{imageURL}}" class="img-responsive"  id="each">
+             <img src="{{imageURL}}" class="img-responsive"  id="each"><br>
 			 <button type="button" class="btn btn-block">Message</button>
-			 <br>
-  <button type="button" class="btn btn-block">Delete</button>
+			 
+  <button id="red"type="button" class="btn btn-block">Delete</button>
         </a>
   
   </div>
