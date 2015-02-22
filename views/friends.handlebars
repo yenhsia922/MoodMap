@@ -31,7 +31,11 @@
   
   color: white;
 	}
+	
+	
 	</style>
+	
+	
   </head>
   <body>
     <div class="container-fluid" id = "imgcontainter">
@@ -44,24 +48,58 @@
   <a href="#" class="thumbnail">
   <h3 id ="title">{{name}}</h3>
              <img src="{{imageURL}}" class="img-responsive"  id="each"><br>
-			 <button type="button" class="btn btn-block">Message</button>
+			 <button type="button" class="btn btn-block" id="msg">Message</button>
 			 
   <button id="red"type="button" class="btn btn-block">Delete</button>
         </a>
   
   </div>
+  
+  
+  
+  
+  
+  
 	 {{/each}}
    
 
     
 		
     </div>
+	<div class="bs-example">
+  
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Confirmation</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Do you want to save changes you made to document before closing?</p>
+                    <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 	</div>
  
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-  
+  <script type="text/javascript">
+$(document).ready(function(){
+	$("#msg").click(function(){
+		$("#myModal").modal('show');
+	});
+});
+</script>
     <script type="text/javascript" src="js/index.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery.js"></script>
