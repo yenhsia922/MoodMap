@@ -183,6 +183,11 @@
                   });
 
                   linkInfoWindow(markerx, map, infowindow, result[i].username, result[i].currentStatus, result[i].userId, result[i].latitude, result[i].longitude);
+                  infowindow.setContent("<h6 style='min-width: 120px;'>" + "<h6 style='text-transform: uppercase;'><span style='color: #33cc66;'><b>" 
+                      + result[i].username + "</b></span></h6><i>''" + result[i].currentStatus + "''</i><br><a href='#' data-toggle='modal' data-target='#viewProfileModal'><h6>See Profile</h6></a></h6>");
+                  infowindow.open(map,markerx);
+                  linkInfoWindow(markerx, map, infowindow, result[i].username, result[i].currentStatus, result[i].userId, result[i].latitude, result[i].longitude);
+                  
                 }
 
             
