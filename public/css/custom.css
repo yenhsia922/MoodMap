@@ -248,15 +248,7 @@ text-align: center;
 }
 
 .offcanvas.in {
-  background-color: #64A9FF;
-}
-
-.navmenu-default .navmenu-brand, .navbar-default .navbar-offcanvas .navmenu-brand {
-  color: white;
-}
-
-.navmenu-default .navmenu-nav>li>a, .navbar-default .navbar-offcanvas .navmenu-nav>li>a {
-  color: white;
+  background-color: white;
 }
 
 .circular {

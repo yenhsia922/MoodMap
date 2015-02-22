@@ -11,7 +11,7 @@
     <link href="/css/cosmo.min.css" rel="stylesheet">
     <link href="http://jasny.github.io/bootstrap/dist/css/jasny-bootstrap.min.css" rel="stylesheet">
     <link href="https://jasny.github.io/bootstrap/examples/navmenu-reveal/navmenu-reveal.css" rel="stylesheet">
-     <link href="/css/custom.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,7 +26,9 @@
   </head>
   <body>
     <div class="navmenu navmenu-default navmenu-fixed-right offcanvas">
-      <a class="navmenu-brand" href="#"><h2>Person's name</h2></a>
+      <a class="navmenu-brand" href="#">
+        <h2>Person's name</h2>
+      </a>
       <ul class="nav navmenu-nav">
         <span><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.0.160.160/p160x160/1483207_10153627456970241_1882343623_n.jpg?oh=721935cf649682fb9a7adfee909183a3&oe=554BA7AB&__gda__=1431919654_96d0cbe6628b5ee1bce6bde2c64f6e72" alt="" class="circular"></span>
       </ul>
@@ -44,14 +46,12 @@
       <span class="icon-bar"></span>
       </button>
     </div>
-
     <div class="container" id = "cont">
       <div id="header-title">
         <span id="meButton" href="#" data-toggle="tooltip" data-placement="bottom" title="Clicking here returns the map to you">
         <img src="images/transbgMMlogo.png" alt="logo" style="height:40px;width:auto"> 
         Mood Map</span>
       </div>
-
       <div id="googleMap" style="width: 100%;height:400px;"></div>
       <p>
       <form>
@@ -68,141 +68,128 @@
       </form>
       </p>
     </div>
-  <div class="container" id = "cont">
+    <div class="container" id = "cont">
     <span class="expanded">
-   <div class="image-button">
-    <button id="emoji1" style="position:relative; margin-left:10px"><img src="images/emoji/emoji1.png" onclick="hideBorder('emoji1')"alt="1" style="height:30px;width:30px;"></button>
-    <button id="emoji2" style="position:relative; margin-left:10px"><img src="images/emoji/emoji2.png" onclick="hideBorder('emoji2')" alt="2" style="height:30px;width:30px"></button>
-    <button id="emoji3"style="position:relative; margin-left:10px"><img src="images/emoji/emoji3.png" onclick="hideBorder('emoji3')" alt="3" style="height:30px;width:30px"></button>
-    <button id="emoji4"style="position:relative; margin-left:10px"><img src="images/emoji/emoji4.png" onclick="hideBorder('emoji4')" alt="4" style="height:30px;width:30px"></button>
-    <button id="emoji5"style="position:relative; margin-left:10px"><img src="images/emoji/emoji5.png" onclick="hideBorder('emoji5')" alt="5" style="height:30px;width:30px"></button>
-    <button id="emoji6"style="position:relative; margin-left:10px" ><img src="images/emoji/emoji6.png" onclick="hideBorder('emoji6')" alt="6" style="height:30px;width:30px"></button>
-    <button id="emoji7"style="position:relative; margin-left:10px"><img src="images/emoji/emoji7.png" onclick="hideBorder('emoji7')" alt="7" style="height:30px;width:30px"></button>
-    <button id="emoji8"style="position:relative; margin-left:10px"><img src="images/emoji/emoji8.png" onclick="hideBorder('emoji8')" alt="8" style="height:30px;width:30px"></button>
-    <button id="emoji9"style="position:relative; margin-left:10px"><img src="images/emoji/emoji9.png" onclick="hideBorder('emoji9')" alt="9" style="height:30px;width:30px"></button>
-    <button id="emoji10"style="position:relative; margin-left:10px"><img src="images/emoji/emoji10.png" onclick="hideBorder('emoji10')" alt="10" style="height:30px;width:30px"></button>
-
-    <button id="emoji11" style="position:relative; margin-left:10px"><img src="images/emoji/emoji11.png" onclick="hideBorder('emoji11')" alt="11" style="height:30px;width:30px"></button>
-    <button id="emoji12"style="position:relative; margin-left:10px"><img src="images/emoji/emoji12.png" onclick="hideBorder('emoji12')" alt="12" style="height:30px;width:30px"></button>
-    <button id="emoji13"style="position:relative; margin-left:10px"><img src="images/emoji/emoji13.png" onclick="hideBorder('emoji13')" alt="13" style="height:30px;width:30px"></button>
-    <button id="emoji14"style="position:relative; margin-left:10px"><img src="images/emoji/emoji14.png" onclick="hideBorder('emoji14')" alt="14" style="height:30px;width:30px"></button>
-    <button id="emoji15"style="position:relative; margin-left:10px"><img src="images/emoji/emoji15.png" onclick="hideBorder('emoji15')" alt="15" style="height:30px;width:30px"></button>
-
-    <button id="emoji16"style="position:relative; margin-left:10px" ><img src="images/emoji/emoji16.png" onclick="hideBorder('emoji16')" alt="16" style="height:30px;width:30px"></button>
-    <button id="emoji17"style="position:relative; margin-left:10px"><img src="images/emoji/emoji17.png" onclick="hideBorder('emoji17')" alt="17" style="height:30px;width:30px"></button>
-    <button id="emoji18"style="position:relative; margin-left:10px"><img src="images/emoji/emoji18.png" onclick="hideBorder('emoji18')" alt="18" style="height:30px;width:30px"></button>
-    <button id="emoji19"style="position:relative; margin-left:10px"><img src="images/emoji/emoji19.png" onclick="hideBorder('emoji19')" alt="19" style="height:30px;width:30px"></button>
-    <button id="emoji20"style="position:relative; margin-left:10px"><img src="images/emoji/emoji20.png" onclick="hideBorder('emoji20')" alt="20" style="height:30px;width:30px"></button>
-
-</div> 
-</span>
-
-<span class="collapsed"><img src="images/emoji/emoji1.png"style="height:30px;width:30px;"></span>
-<a href="javascript:void(0)" class="collapsed" id="open">Select Emoji</a>
-
-
-  <!--MODALS HERE-->
-  <div class="container">
-  <!-- User Profiles -->
-  <div class="modal fade" id="viewProfileModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">{{username}}Username Placeholder</h4>
-        </div>
-        <div class="modal-body">
-          {{image}}
-          <img src="http://www.squarebooks.com/files/squarebooks/Facebook-no-profile-picture-icon-620x389.jpg" alt=""/>
-          <p class="modalstatus">
-            "Status here {{currentStatus}}"
-          </p>
-          <p>
-            Previous statuses?
-          </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#addSuccessModal"><span class="alert">Add Friend</span></button>
-          <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" 
-          data-target="#sendMessageModal" data-whatever="{{username}}">
-            Send Message
-          </button>
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+      <div class="image-button">
+        <button id="emoji1" style="position:relative; margin-left:10px"><img src="images/emoji/emoji1.png" onclick="hideBorder('emoji1')"alt="1" style="height:30px;width:30px;"></button>
+        <button id="emoji2" style="position:relative; margin-left:10px"><img src="images/emoji/emoji2.png" onclick="hideBorder('emoji2')" alt="2" style="height:30px;width:30px"></button>
+        <button id="emoji3"style="position:relative; margin-left:10px"><img src="images/emoji/emoji3.png" onclick="hideBorder('emoji3')" alt="3" style="height:30px;width:30px"></button>
+        <button id="emoji4"style="position:relative; margin-left:10px"><img src="images/emoji/emoji4.png" onclick="hideBorder('emoji4')" alt="4" style="height:30px;width:30px"></button>
+        <button id="emoji5"style="position:relative; margin-left:10px"><img src="images/emoji/emoji5.png" onclick="hideBorder('emoji5')" alt="5" style="height:30px;width:30px"></button>
+        <button id="emoji6"style="position:relative; margin-left:10px" ><img src="images/emoji/emoji6.png" onclick="hideBorder('emoji6')" alt="6" style="height:30px;width:30px"></button>
+        <button id="emoji7"style="position:relative; margin-left:10px"><img src="images/emoji/emoji7.png" onclick="hideBorder('emoji7')" alt="7" style="height:30px;width:30px"></button>
+        <button id="emoji8"style="position:relative; margin-left:10px"><img src="images/emoji/emoji8.png" onclick="hideBorder('emoji8')" alt="8" style="height:30px;width:30px"></button>
+        <button id="emoji9"style="position:relative; margin-left:10px"><img src="images/emoji/emoji9.png" onclick="hideBorder('emoji9')" alt="9" style="height:30px;width:30px"></button>
+        <button id="emoji10"style="position:relative; margin-left:10px"><img src="images/emoji/emoji10.png" onclick="hideBorder('emoji10')" alt="10" style="height:30px;width:30px"></button>
+        <button id="emoji11" style="position:relative; margin-left:10px"><img src="images/emoji/emoji11.png" onclick="hideBorder('emoji11')" alt="11" style="height:30px;width:30px"></button>
+        <button id="emoji12"style="position:relative; margin-left:10px"><img src="images/emoji/emoji12.png" onclick="hideBorder('emoji12')" alt="12" style="height:30px;width:30px"></button>
+        <button id="emoji13"style="position:relative; margin-left:10px"><img src="images/emoji/emoji13.png" onclick="hideBorder('emoji13')" alt="13" style="height:30px;width:30px"></button>
+        <button id="emoji14"style="position:relative; margin-left:10px"><img src="images/emoji/emoji14.png" onclick="hideBorder('emoji14')" alt="14" style="height:30px;width:30px"></button>
+        <button id="emoji15"style="position:relative; margin-left:10px"><img src="images/emoji/emoji15.png" onclick="hideBorder('emoji15')" alt="15" style="height:30px;width:30px"></button>
+        <button id="emoji16"style="position:relative; margin-left:10px" ><img src="images/emoji/emoji16.png" onclick="hideBorder('emoji16')" alt="16" style="height:30px;width:30px"></button>
+        <button id="emoji17"style="position:relative; margin-left:10px"><img src="images/emoji/emoji17.png" onclick="hideBorder('emoji17')" alt="17" style="height:30px;width:30px"></button>
+        <button id="emoji18"style="position:relative; margin-left:10px"><img src="images/emoji/emoji18.png" onclick="hideBorder('emoji18')" alt="18" style="height:30px;width:30px"></button>
+        <button id="emoji19"style="position:relative; margin-left:10px"><img src="images/emoji/emoji19.png" onclick="hideBorder('emoji19')" alt="19" style="height:30px;width:30px"></button>
+        <button id="emoji20"style="position:relative; margin-left:10px"><img src="images/emoji/emoji20.png" onclick="hideBorder('emoji20')" alt="20" style="height:30px;width:30px"></button>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <!-- My Friends -->
-  <div class="modal fade" id="myFriendsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Friends</h4>
-        </div>
-        <div class="modal-body">
-          None
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="sendMessageModal" tabindex="-1" role="dialog" 
-aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="exampleModalLabel">New message</h4>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="recipient-name" class="control-label">Recipient:</label>
-            <input type="text" class="form-control" id="recipient-name">
+    </span>
+    <span class="collapsed"><img src="images/emoji/emoji1.png"style="height:30px;width:30px;"></span>
+    <a href="javascript:void(0)" class="collapsed" id="open">Select Emoji</a>
+    <!--MODALS HERE-->
+    <div class="container">
+      <!-- User Profiles -->
+      <div class="modal fade" id="viewProfileModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">{{username}}Username Placeholder</h4>
+            </div>
+            <div class="modal-body">
+              {{image}}
+              <img src="http://www.squarebooks.com/files/squarebooks/Facebook-no-profile-picture-icon-620x389.jpg" alt=""/>
+              <p class="modalstatus">
+                "Status here {{currentStatus}}"
+              </p>
+              <p>
+                Previous statuses?
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#addSuccessModal"><span class="alert">Add Friend</span></button>
+              <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" 
+                data-target="#sendMessageModal" data-whatever="{{username}}">
+              Send Message
+              </button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="message-text" class="control-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- My Friends -->
+      <div class="modal fade" id="myFriendsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Friends</h4>
+            </div>
+            <div class="modal-body">
+              None
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" 
-          data-target="#sendSuccessModal" >Send message</button>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="modal fade" id="sendSuccessModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      Yay! Message Sent!
+    <div class="modal fade" id="sendMessageModal" tabindex="-1" role="dialog" 
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="control-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" 
+              data-target="#sendSuccessModal" >Send message</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="modal fade" id="addSuccessModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      Woop! Friend Added!
+    <div class="modal fade" id="sendSuccessModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          Yay! Message Sent!
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<!--end modals-->
-
-
-
-  <div class="container">
+    <div class="modal fade" id="addSuccessModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          Woop! Friend Added!
+        </div>
+      </div>
+    </div>
+    <!--end modals-->
+    <div class="container">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
