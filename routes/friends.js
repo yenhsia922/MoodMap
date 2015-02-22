@@ -10,9 +10,9 @@ exports.viewFriends = function(req, res){
 var friends = require('../friends.json');
 
 exports.viewFriends = function(req, res){
-//	res.json('friends');
-//};
-
+res.render('friends',friends);
+};
+/*
 	res.render('friends', {
     'friends': [
       { 'name': 'C',
@@ -27,4 +27,4 @@ exports.viewFriends = function(req, res){
     ]
   });
 };
-
+*/
