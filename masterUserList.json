@@ -2,7 +2,7 @@
 [
 	{
 		"userId": 0,
-		"username": "mojojf3o",
+		"username": "a",
 		"image": "http://ak2.polyvoreimg.com/cgi/img-thing/size/l/tid/105256559.jpg",
 		"currentStatus": "testing",
 		"timestamp": "i am drinking",
@@ -12,7 +12,7 @@
 	},
 	{
 	  	"userId": 1,
-	  	"username": "mojojo",
+	  	"username": "b",
 	  	"image": "http://ak1.polyvoreimg.com/cgi/img-thing/size/l/tid/101049235.jpg",
 		"currentStatus": "testing",
 		"timestamp": "cool space",
@@ -22,7 +22,7 @@
 	},
 	{
 	  	"userId": 2,
-	  	"username": "mojosjo",
+	  	"username": "c",
 	  	"image": "http://ak1.polyvoreimg.com/cgi/img-thing/size/l/tid/56890045.jpg",
 		"currentStatus": "im hungry",
 		"timestamp": "TESTING",
@@ -32,7 +32,7 @@
 	},
 	{
 	  	"userId": 3,
-	  	"username": "mojsda",
+	  	"username": "d",
 	  	"image": "http://ak2.polyvoreimg.com/cgi/img-thing/size/l/tid/104061062.jpg",
 		"currentStatus": "abcd",
 		"timestamp": "i have an extra soda first one here gets it",
@@ -41,7 +41,7 @@
 	},
 	{
 	  	"userId": 4,
-	  	"username": "dfdfs",
+	  	"username": "e",
 	  	"image": "http://ak1.polyvoreimg.com/cgi/img-thing/size/l/tid/101234039.jpg",
 		"currentStatus": "hahahahaha",
 		"timestamp": "basketball?",
@@ -51,7 +51,7 @@
 	},
 	{
 	  	"userId": 5,
-	  	"username": "dfdfs",
+	  	"username": "f",
 	  	"image": "http://ak1.polyvoreimg.com/cgi/img-thing/size/l/tid/101234039.jpg",
 		"currentStatus": "hahahahaha",
 		"timestamp": "basketball?",
@@ -61,7 +61,7 @@
 	},
 	{
 	  	"userId": 6,
-	  	"username": "mojs4ojo",
+	  	"username": "g",
 	  	"image": "http://ak2.polyvoreimg.com/cgi/img-thing/size/l/tid/106474181.jpg",
 		"currentStatus": "teslol",
 		"timestamp": "i like snails",
@@ -71,7 +71,7 @@
 	},
 	{
 	  	"userId": 7,
-	  	"username": "mojogsjo",
+	  	"username": "h",
 	  	"image": "http://ak2.polyvoreimg.com/cgi/img-thing/size/l/tid/15727530.jpg",
 		"currentStatus": "at the village?!",
 		"timestamp": "time",
@@ -81,7 +81,7 @@
 	},
 	{
 	  	"userId": 8,
-	  	"username": "Timmy",
+	  	"username": "i",
 	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
@@ -91,7 +91,7 @@
 	},
 	{
 	  	"userId": 9,
-	  	"username": "Timmy",
+	  	"username": "j",
 	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
@@ -101,7 +101,7 @@
 	},
 	{
 	  	"userId": 10,
-	  	"username": "Timmy",
+	  	"username": "k",
 	  	"image": "http://media.tumblr.com/tumblr_lmarmbrDQq1qbee1s.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
@@ -111,7 +111,7 @@
 	},
 	{
 	  	"userId": 11,
-	  	"username": "Timmy",
+	  	"username": "l",
 	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
@@ -121,7 +121,7 @@
 	},
 	{
 	  	"userId": 12,
-	  	"username": "Timmy",
+	  	"username": "m",
 	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
@@ -131,7 +131,7 @@
 	},
 	{
 	  	"userId": 12,
-	  	"username": "Timmy",
+	  	"username": "n",
 	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
@@ -141,7 +141,7 @@
 	},
 	{
 	  	"userId": 13,
-	  	"username": "Timmy",
+	  	"username": "o",
 	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/6e/ed/e0/6eede011ac3c4010decb66d2a976db77.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
@@ -151,7 +151,7 @@
 	},
 	{
 	  	"userId": 14,
-	  	"username": "Timmy",
+	  	"username": "p",
 	  	"image": "http://media.tumblr.com/tumblr_lmaro5OFpM1qbee1s.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
@@ -161,7 +161,7 @@
 	},
 	{
 	  	"userId": 15,
-	  	"username": "Timmy",
+	  	"username": "q",
 	  	"image": "https://s-media-cache-ak0.pinimg.com/736x/99/86/56/998656fc4e676f18d129f98f3e2ced3f.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
@@ -171,7 +171,7 @@
 	},
 	{
 	  	"userId": 16,
-	  	"username": "Timmy",
+	  	"username": "r",
 	  	"image": "https://s-media-cache-ak0.pinimg.com/474x/22/da/dc/22dadc42092df4c385cb3ca96c0e1ff8.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
@@ -181,7 +181,7 @@
 	},
 	{
 	  	"userId": 17,
-	  	"username": "Timmy",
+	  	"username": "s",
 	  	"image": "https://s-media-cache-ak0.pinimg.com/736x/f7/95/b7/f795b7de52111f18bda9a1ced2cced88.jpg",
 		"currentStatus": "im a g",
 		"timestamp": "time",
