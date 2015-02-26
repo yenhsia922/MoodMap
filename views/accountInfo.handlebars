@@ -7,11 +7,12 @@
     <title>Edit Profile | Mood Map</title>
     <link rel="icon" type="image/png" href="images/fav.png">
     <!-- Bootstrap -->
-   <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
     <link href="css/cosmo.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="http://jasny.github.io/bootstrap/dist/css/jasny-bootstrap.min.css" rel="stylesheet">
     <link href="https://jasny.github.io/bootstrap/examples/navmenu-reveal/navmenu-reveal.css" rel="stylesheet">
+   <link href="css/custom.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,109 +21,125 @@
     <![endif]-->
   </head>
   <body>
-  <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-      <a class="navmenu-brand" href="/MainPage"><span id="meButton" href="#" data-toggle="tooltip" data-placement="bottom">
-        <img src="images/transbgMMlogo.png" alt="logo" style="height:40px;width:auto"> 
-        Mood Map</span></a>
-      <ul class="nav navmenu-nav">
-        <span><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.0.160.160/p160x160/1483207_10153627456970241_1882343623_n.jpg?oh=721935cf649682fb9a7adfee909183a3&oe=554BA7AB&__gda__=1431919654_96d0cbe6628b5ee1bce6bde2c64f6e72" alt="" class="circular"></span>
-      </ul>
-      <ul class="nav navmenu-nav">
-        <li><a href="/MainPage">Map</a></li>
-        <li><a href="/friends">Friends</a></li>
-        <li class="active"><a href="/accountInfo" onclick="popup(this.href,'myWindow','500','650','yes');return false">Account</a></li>
-        <li><a href="/">Logout</a></li>
-      </ul>
-    </div>
-    <div class="navbar navbar-default navbar-fixed-top">
-      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-  
-  
-    <div class="container" id = "cont">
-      <div id="header-title2">Edit Profile</div>
-      <form class="form-horizontal"role="form" id="signupform"=>
-        <!-- Text input-->
-        <div class="form-group">
-          <label class="control-label" for="email">Email:</label>  
-          <input id="email" name="email" type="text" placeholder="introHCI170@ucsd.edu" class="form-control input-md">
-        </div>
-        <!-- Text input-->
-        <div class="form-group">
-          <label class="control-label" for="username">Username:</label>  
-          <input id="username" name="username" type="text" placeholder="introHCI170" class="form-control input-md">
-        </div>
-        <!-- Password input-->
-        <div class="form-group">
-          <div class="left">
-            <label class="control-label" for="password">Password: </label>
-            <input id="password" name="password" type="password" placeholder="*******" class="form-control input-md">
-          </div>
-          <div class="right">
-            <label class="control-label" for="password2">Confirm Password:</label>
-            <input id="password2" name="password2" type="password" placeholder="*******" class="form-control input-md" >
-          </div>
-        </div>
-        <!-- Text input-->
-        <div class="form-group">
-          <div class="left">
-            <label class="control-label" for="age">Age:</label>  
-            <input id="age" name="age" type="text" placeholder="20" class="form-control input-md">
-          </div>
-          <div class="right">
-            <label class="control-label" for="Birthday">Birthday:</label>  
-            <input id="birthday" name="birthday" type="text" placeholder="02/27/1995" class="form-control input-md">
-          </div>
-        </div>
+    <a href="/MainPage" id="backlink">&laquo; Back to Map</a>
+    <div class = "rows">
+      <div class="col-xs-12">
+        <div class="modal-dialog">
+          <div class = "modal-content">
+            <div class = "modal-header">
+                <h4 class="modal-title" id="header-title">Edit Profile</h4>
+            </div>
 
-        <!-- Multiple Radios -->
-        <div class="form-group">
-          <label class="control-label" for="gender">Gender:</label>
-          <div class="radio">
-            <label for="gender-0">
-            <input type="radio" name="gender" id="gender-0" value="1" >
-            Male
-            </label>
-            <label for="gender-1">
-            <input type="radio" name="gender" id="gender-1" value="2" checked="checked">
-            Female
-            </label>
-            <label for="gender-2">
-            <input type="radio" name="gender" id="gender-2" value="3">
-            Other
-            </label>
+            <div class="modal-body">
+
+              <div class="form-group">
+                <div class="rows">
+                  <div class="col-lg-12">
+                    <input class="form-control input-lg" name="email" placeholder="ck11@ucsd.edu" type="text">  
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="rows">
+                  <div class="col-lg-12">
+
+                    <input class="form-control input-lg" id="username" name="username" placeholder="JoanneW" type="text">  
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="rows">
+                  <div class="col-lg-12">
+                    <input class="form-control input-lg" id="password" name="password" placeholder="***********" type="password">  
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="rows">
+                  <div class="col-lg-12">
+                    <input class="form-control input-lg" id="interest" name="interest" placeholder=" #CS, #Music, #Swimming " type="text">  
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="rows">
+                  <div class="col-lg-12">
+                    <div class="form-control">
+                      <a class="dropdown"id="gender" role="button" data-toggle="dropdown" ><span class="selection">Female</span>
+                      <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                        <li><a tabindex="-1" href="#">Male</a></li>
+                        <li><a tabindex="-1" href="#">Female</a></li>
+                        <li><a tabindex="-1" href="#">Other</a></li>
+                      </ul>
+                    </div>
+                 </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="rows">
+                  <div class="col-lg-12">
+                    <div class="form-control">
+                      <div class="fileUpload">
+                        <a class="upload" href='javascript:;'>Change Profile Picture
+                        <input type="file"class="upload" onchange='$("#upload-file-info").html($(this).val());'/>
+                        </a>
+                      <span class='label label-info' id="upload-file-info">myProfilePic.gif</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            <br>
+        
+          <!-- Button -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="submit" href="/MainPage">Done</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="cancel" href="/MainPage">Cancel</button>
           </div>
         </div>
-        <!-- Textarea -->
-        <div class="form-group">
-          <label class="control-label" for="interests">Interests:</label>
-          <textarea class="form-control" id="interests" name="interests" placeholder="#CS,#VolleyBall,#BBQ" ></textarea>
-        </div>
-        <!-- File Button --> 
-        <div class="form-group">
-          <label class="control-label" for="filebutton">Upload Profile Picture</label>
-          <input id="filebutton" name="filebutton" class="input-file" type="file">
-        </div>
-        <br>
-        <!-- Button -->
-        <div class="form-group">
-          <div class="submit-button">
-          <a class="btn btn-default" id="done"href="JavaScript:window.close()" role="button">Save</a>
-          <a class="btn btn-default" href="JavaScript:window.close()" role="button">Cancel</a>
-        </div>
-        </div>
-      </form>
+      </div>
     </div>
+  </div>
+</div>
   <div id="ack"></div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="https://jasny.github.io/bootstrap/dist/js/jasny-bootstrap.min.js"></script>
-	<script src="https://raw.githubusercontent.com/jasny/bootstrap/master/js/offcanvas.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-1.11.0.js"></script>
+
+
+    <script type="text/javascript">  
+      $(".dropdown-menu li a").click(function(){
+        $(this).parents(".form-group").find('.selection').text($(this).text());
+        $(this).parents(".form-group").find('.selection').val($(this).text());
+      });
+
+
+      $('#submit').click(function(){
+        window.location='/MainPage'
+      });
+
+      $('#cancel').click(function(){
+        window.location='/MainPage'
+      });
+
+      $('input[type=file]').bootstrapFileInput();
+
+    </script>
+
   </body>
 </html>

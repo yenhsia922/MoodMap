@@ -15,6 +15,7 @@ var accountInfo = require('./routes/accountInfo');
 var user = require('./routes/user');
 var statuus = require('./routes/status');
 var friends = require('./routes/friends');
+var messages = require('./routes/messages');
 // Example route
 //var user = require('./routes/user');
 
@@ -48,6 +49,7 @@ app.get('/accountInfo', accountInfo.changeInfo);
 app.get('/user', user.updateUser);
 app.get('/status', statuus.updateStatuses);
 app.get('/friends', friends.viewFriends);
+app.get('/messages', messages.viewMessages);
 // Example route
 // app.get('/users', user.list);
 

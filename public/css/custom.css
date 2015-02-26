@@ -1,3 +1,40 @@
+
+.dropdown{
+  height:30px;
+  margin-top:5px;
+  margin-left:10px;
+  font-size:18px;
+  color:#999;
+  cursor: pointer;
+}
+
+.selection{
+  color:#999;
+}
+.upload{
+  color:#999;
+  margin-left:10px;
+}
+.fileUpload.form-control{
+  outline-color:#000;
+  background-color: #999;
+  color:#FFF;
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  left:10;
+  font-size: 36px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
 #cont {
   max-width:400px;
   /* align logo to center*/
@@ -118,7 +155,6 @@ a.btn-default{
 }
 
 #header-title{
-  margin-top:-60px;
   padding: 10px;
   font-weight: 700;
   font-size: 36px;
@@ -220,6 +256,9 @@ label, input{
   border-color:#3e89e6;
   padding: 8px;
   width:100px;
+}
+#cancel{
+    width:100px;
 }
 
 .submit-button{

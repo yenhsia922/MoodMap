@@ -1,0 +1,30 @@
+{
+	"messages": [
+		{
+			"name": "superMan:",
+			"message": "Cheer Up!!!!"		
+		},
+		{
+			"name": "Jenny123:",
+			"message": "Lunch @tapex 1pm?"		
+		},
+		{
+			"name": "lalala:",
+			"message": "Hey I am in CSE170 too!!!"		
+		},
+		{
+			"name": "JoshV:",
+			"message": "Hello."		
+		}
+		,
+		{
+			"name": "LillanReily:",
+			"message": "Zzz...?"		
+		}
+		,
+		{
+			"name": "GummyBear:",
+			"message": "Yum Yum"		
+		}
+	]
+}

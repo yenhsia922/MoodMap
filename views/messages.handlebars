@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Friends | Mood Map</title>
+    <title>Messages | Mood Map</title>
     <link rel="icon" type="image/png" href="images/fav.png">
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
@@ -23,7 +23,7 @@
       text-align:center;
       }
       #each{
-      height:50px;
+      height:10px;
       }
       #red {
       background-color: rgb(255, 87, 87);
@@ -41,17 +41,17 @@
         <span><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.0.160.160/p160x160/1483207_10153627456970241_1882343623_n.jpg?oh=721935cf649682fb9a7adfee909183a3&oe=554BA7AB&__gda__=1431919654_96d0cbe6628b5ee1bce6bde2c64f6e72" alt="" class="circular"></span>
       </ul>
       <ul class="nav navmenu-nav">
-	  
+    
         <li><a href="/MainPage">Map</a></li>
-        <li class="active"><a href="/friends">Friends</a></li>
-        <li><a href="/messages">Messages</a></li>
+         <li><a href="/friends">Friends</a></li>
+         <li class="active"><a href="/messages">Messages</a></li>
         <li><a href="/accountInfo" onclick="popup(this.href,'myWindow','500','650','yes');return false">Account</a></li>
         <li><a href="/">Logout</a></li>
       </ul>
     </div>
     <div class="navbar navbar-default navbar-fixed-top">
       <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-	  
+    
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -59,14 +59,15 @@
     </div>
   
     <div class="container" id = "imgcontainter">
-      <h1 id ="title">Friends</h1>
+      <h1 id ="title">Messages</h1>
       <div class="row">
-        {{#each friends}}
+        {{#each messages}}
         <div class="col-lg-4 col-sm-6 col-xs-12" id="imgs">
           <a href="#" class="thumbnail">
             <h3 id ="title">{{name}}</h3>
+            <h4 id ="title">{{message}}</h4>
             <img src="{{imageURL}}" class="img-responsive"  id="each"><br>
-            <button type="button" class="btn btn-block msg" id="msg">Message</button>
+            <button type="button" class="btn btn-block msg" id="msg">Reply</button>
             <button id="red"type="button" class="btn btn-block">Delete</button>
           </a>
         </div>
@@ -93,34 +94,37 @@
                   </fieldset>
                 </form>
               </div>
-                <div class="modal-footer">
+              <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" 
                       data-target="#sendSuccessModal" >Send</button>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 </div>
+              </div>
             </div>
           </div>
         </div>
-         <div class="modal fade" id="sendSuccessModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal fade" id="sendSuccessModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
           Message Sent!
         </div>
       </div>
     </div>
+      </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-	<script src="https://jasny.github.io/bootstrap/dist/js/jasny-bootstrap.min.js"></script>
-	<script src="https://raw.githubusercontent.com/jasny/bootstrap/master/js/offcanvas.js"></script>
+  <script src="https://jasny.github.io/bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+  <script src="https://raw.githubusercontent.com/jasny/bootstrap/master/js/offcanvas.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
       
-      	$(".msg").click(function(){
+        $(".msg").click(function(){
       
-      		$("#thisModal").modal('show');
-      	});
+          $("#thisModal").modal('show');
+        });
       });
 
       function send(){
