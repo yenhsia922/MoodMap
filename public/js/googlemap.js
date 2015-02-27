@@ -114,7 +114,7 @@ function success(position)
   var myLocation = new google.maps.LatLng(lat, lng);
   var mapOptions = {
     center: new google.maps.LatLng(myLocation.lat(), myLocation.lng()),
-    zoom: 17,
+    zoom: 16,
     zoomControl: true,
     zoomControlOptions:
     {

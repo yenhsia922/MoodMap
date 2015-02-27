@@ -153,6 +153,104 @@
 		"longitude": "-117.2374963",
 		"gender": "male",
 		"emoji": "/images/emoji/emoji3.png"
+	},
+	{
+		"userId": 13,
+	  	"username": "JBBJJBBJ",
+	  	"image": "http://web-images.chacha.com/images/Gallery/2222/celebrity-guys-who-wear-makeup-1394512886-apr-17-2013-1-600x500.jpg",
+		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji20.png </img> Hospital?",
+		"timestamp": "time",
+		"latitude": "32.8780916",
+		"longitude": "-117.2231726",
+		"gender": "male",
+		"emoji": "/images/emoji/emoji20.png"
+	},
+	{
+		"userId": 13,
+	  	"username": "Jennifer",
+	  	"image": "http://celebritydb.net/images/1407162060_59511.jpg",
+		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji10.png </img> Sports lover!!",
+		"timestamp": "time",
+		"latitude": "32.8780916",
+		"longitude": "-117.2231726",
+		"gender": "female",
+		"emoji": "/images/emoji/emoji10.png"
+	},
+	{
+		"userId": 13,
+	  	"username": "sweetywho",
+	  	"image": "http://p1.pichost.me/i/11/1343693.jpg",
+		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji7.png </img> Cooking",
+		"timestamp": "time",
+		"latitude": "32.8769699",
+		"longitude": "-117.2214988",
+		"gender": "female",
+		"emoji": "/images/emoji/emoji7.png"
+	},
+	{
+		"userId": 13,
+	  	"username": "donotaskmewhy",
+	  	"image": "http://images.sodahead.com/polls/001989763/116865410_young_guy_thinking_answer_3_xlarge.jpeg",
+		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji5.png </img> Endless sleep",
+		"timestamp": "time",
+		"latitude": "32.8760331",
+		"longitude": "-117.2277303",
+		"gender": "male",
+		"emoji": "/images/emoji/emoji5.png"
+	},
+	{
+		"userId": 13,
+	  	"username": "partytime",
+	  	"image": "http://resources0.news.com.au/images/2015/01/30/1227201/615144-1d8f6f60-a7e1-11e4-b4a3-9d4f296075c1.jpg",
+		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji3.png </img> Want party?",
+		"timestamp": "time",
+		"latitude": "32.8763155",
+		"longitude": "-117.2237175",
+		"gender": "male",
+		"emoji": "/images/emoji/emoji3.png"
+	},
+	{
+		"userId": 13,
+	  	"username": "SDbest",
+	  	"image": "http://st1.travel.india.com/wp-content/uploads/2013/05/Surfing-03.jpg",
+		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji2.png </img> Why I love SD so much",
+		"timestamp": "time",
+		"latitude": "32.8922007",
+		"longitude": "-117.2458666",
+		"gender": "female",
+		"emoji": "/images/emoji/emoji2.png"
+	},
+	{
+		"userId": 13,
+	  	"username": "babysocute",
+	  	"image": "http://i3.mirror.co.uk/incoming/article140855.ece/alternates/s2197/baby-lying-on-her-front-pic-getty-images-335074550.jpg",
+		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji15.png </img> Pass!!!!!",
+		"timestamp": "time",
+		"latitude": "32.8799597",
+		"longitude": "-117.2402727",
+		"gender": "female",
+		"emoji": "/images/emoji/emoji15.png"
+	},
+	{
+		"userId": 13,
+	  	"username": "babyagain",
+	  	"image": "http://wallpicshd.com/wp-content/uploads/2013/07/Download-Royal-Baby-2013-Photos-Wallpaper-HD.jpg",
+		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji18.png </img> Hungry?",
+		"timestamp": "time",
+		"latitude": "32.8829262",
+		"longitude": "-117.2392481",
+		"gender": "female",
+		"emoji": "/images/emoji/emoji18.png"
+	},
+	{
+		"userId": 13,
+	  	"username": "arielLin",
+	  	"image": "http://imgcache.chinayes.com/cnews/20120412/201204121645383080964.jpg",
+		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji5.png </img> Relaxing",
+		"timestamp": "time",
+		"latitude": "32.8726791",
+		"longitude": "-117.2363245",
+		"gender": "female",
+		"emoji": "/images/emoji/emoji5.png"
 	}
-
 ]
