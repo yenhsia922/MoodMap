@@ -12,6 +12,7 @@
   color:#999;
 }
 .upload{
+  font-size:16px;
   color:#999;
   margin-left:10px;
 }
@@ -152,6 +153,13 @@ select {
 /*login button*/
 a.btn-default{
   width:100px;
+}
+
+#header-title-M{
+  margin-top:-30px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 36px;
 }
 
 #header-title{

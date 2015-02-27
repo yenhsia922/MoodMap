@@ -21,7 +21,30 @@
     <![endif]-->
   </head>
   <body>
-    <a href="/MainPage" id="backlink">&laquo; Back to Map</a>
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+      <a class="navmenu-brand" href="/MainPage"><span id="meButton" href="#" data-toggle="tooltip" data-placement="bottom">
+        <img src="images/transbgMMlogo.png" alt="logo" style="height:40px;width:auto"> 
+        Mood Map</span></a>
+      <ul class="nav navmenu-nav">
+        <span><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.0.160.160/p160x160/1483207_10153627456970241_1882343623_n.jpg?oh=721935cf649682fb9a7adfee909183a3&oe=554BA7AB&__gda__=1431919654_96d0cbe6628b5ee1bce6bde2c64f6e72" alt="" class="circular"></span>
+      </ul>
+      <ul class="nav navmenu-nav">
+    
+        <li><a href="/MainPage">Map</a></li>
+        <li ><a href="/friends">Friends</a></li>
+        <li><a href="/messages">Messages</a></li>
+        <li class="active"><a href="/accountInfo">Account</a></li>
+        <li><a href="/">Logout</a></li>
+      </ul>
+    </div>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+    
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
     <div class = "rows">
       <div class="col-xs-12">
         <div class="modal-dialog">
@@ -89,7 +112,7 @@
                         <a class="upload" href='javascript:;'>Change Profile Picture
                         <input type="file"class="upload" onchange='$("#upload-file-info").html($(this).val());'/>
                         </a>
-                      <span class='label label-info' id="upload-file-info">myProfilePic.gif</span>
+                      <span class='label label-info' id="upload-file-info">me.gif</span>
                       </div>
                     </div>
                   </div>
@@ -120,6 +143,8 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery-1.11.0.js"></script>
+  <script src="https://jasny.github.io/bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+  <script src="https://raw.githubusercontent.com/jasny/bootstrap/master/js/offcanvas.js"></script>
 
 
     <script type="text/javascript">  
