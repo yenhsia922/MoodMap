@@ -111,7 +111,8 @@ function success(position)
     lat = position.coords.latitude;
     lng = position.coords.longitude;
   }
-  var myLocation = new google.maps.LatLng(lat, lng);
+  var myLocation = new google.maps.LatLng(32.8850089,-117.2413201);
+  //var myLocation = new google.maps.LatLng(lat, lng);
   var mapOptions = {
     center: new google.maps.LatLng(myLocation.lat(), myLocation.lng()),
     zoom: 16,

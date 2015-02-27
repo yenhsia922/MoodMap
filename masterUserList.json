@@ -252,5 +252,16 @@
 		"longitude": "-117.2363245",
 		"gender": "female",
 		"emoji": "/images/emoji/emoji5.png"
+	},
+	{
+		"userId": 13,
+	  	"username": "MoodMap",
+	  	"image": "https://theusindependent.com/wp-content/uploads/2014/01/New-Born-Baby-Wallpapers-1.jpg",
+		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji3.png </img> Come to Mood Map",
+		"timestamp": "time",
+		"latitude": "32.8778482",
+		"longitude": "-117.2327302",
+		"gender": "female",
+		"emoji": "/images/emoji/emoji3.png"
 	}
 ]
