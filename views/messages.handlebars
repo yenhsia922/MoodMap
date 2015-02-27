@@ -20,6 +20,9 @@
     <![endif]-->
     <style>
       #title{
+      text-align:center;
+      }
+      #title-name{
       text-align:left;
       }
       #title-msg{
@@ -70,7 +73,7 @@
         {{#each messages}}
         <div class="col-lg-4 col-sm-6 col-xs-12" id="imgs">
           <a href="#" class="thumbnail">
-            <h3 id ="title">{{name}}</h3>
+            <h3 id ="title-name">{{name}}</h3>
             <h4 id ="title-msg">{{message}}</h4>
             <img src="{{imageURL}}" class="img-responsive"  id="each"><br>
             <button type="button" class="btn btn-block msg" id="msg">Reply</button>
