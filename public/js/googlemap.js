@@ -183,7 +183,7 @@ function success(position)
       if(!prevMarkerWindow == 0){
         prevMarkerWindow.close();
       }
-      infowindow.setContent("<h6 style='min-width: 120px;'>" + "<h6 style='text-transform: uppercase;'><span style='color: #33cc66;'><b>" + username + "</b></span></h6><i>''" + status + "''</i><br><a href='#' class='clickprofile' data-toggle='modal' data-target='#viewProfileModal'><h6>View " + username + "'s Profile</h6></a></h6>");
+      infowindow.setContent("<h6 style='min-width: 120px;'>" + "<h6 style='text-transform: uppercase;'><span style='color: #33cc66;'><b>" + username + "</b></span></h6><i>''" + status + "''</i><br><a href='#' class='clickprofile' id=" + id +" data-toggle='modal' data-target='#viewProfileModal'><h6>View " + username + "'s Profile</h6></a></h6>");
       infowindow.open(map, marker);
       prevMarkerWindow = infowindow;
     });
