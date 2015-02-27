@@ -68,7 +68,7 @@
             <h4 id ="title">{{message}}</h4>
             <img src="{{imageURL}}" class="img-responsive"  id="each"><br>
             <button type="button" class="btn btn-block msg" id="msg">Reply</button>
-            <button id="red"type="button" class="btn btn-block">Delete</button>
+            <button id="red"type="button" class="btn btn-block delete">Delete</button>
           </a>
         </div>
         {{/each}}
@@ -126,6 +126,10 @@
           $("#thisModal").modal('show');
         });
       });
+
+  $(".delete").click(function(){
+    $(this).closest("div").hide('slow');
+  });
 
       function send(){
           $("#thisModal").modal('hide');
