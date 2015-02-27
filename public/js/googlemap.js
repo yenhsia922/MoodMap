@@ -8,7 +8,6 @@ var marker;
 var i;
 var infowindow;
 var prevMarkerWindow = 0;
-
 $(document).ready(function()
 {
   //getLocation();
@@ -23,6 +22,8 @@ $(document).ready(function()
     $(".expanded").hide();
     $(".collapsed").show();
   });
+
+
 });
 
 function getLocation()
@@ -173,17 +174,21 @@ function success(position)
           icon: icon,
           title: result[i].timestamp
         });
-        linkInfoWindow(markerx, map, infowindow, result[i].username, result[i].currentStatus, result[i].userId, result[i].latitude, result[i].longitude);
+        linkInfoWindow(markerx, map, infowindow, result[i].username,result[i].image, result[i].currentStatus, result[i].userId, result[i].latitude, result[i].longitude);
       }
     } //end callbackdata
-  function linkInfoWindow(marker, map, infowindow, username, status, id, latitude, longitude)
+  function linkInfoWindow(marker, map, infowindow, username, picture, status, id, latitude, longitude)
   {
     google.maps.event.addListener(marker, 'click', function()
     {
       if(!prevMarkerWindow == 0){
         prevMarkerWindow.close();
       }
-      infowindow.setContent("<h6 style='min-width: 120px;'>" + "<h6 style='text-transform: uppercase;'><span style='color: #33cc66;'><b>" + username + "</b></span></h6><i>''" + status + "''</i><br><a href='#' class='clickprofile' data-toggle='modal' data-target='#viewProfileModal'><h6>View " + username + "'s Profile</h6></a></h6>");
+      infowindow.setContent("<h6 style='min-width: 120px;'>" + "<h6 style='text-transform: uppercase;'><span style='color: #33cc66;'><b>" + username + "</b></span></h6><i>''" + status + "''</i><br><a href='#' class='clickprofile' data-toggle='modal' data-target='#viewProfileModal'><h6>View " + username + "'s Profile</h6></a></h6>");  
+      document.getElementById("myModalLabel").innerHTML = username;
+      document.getElementById("myModalPicture").src = picture;
+      document.getElementById("modalStatus").innerHTML = status;
+      document.getElementById("recipient-name").innerHTML = username;
       infowindow.open(map, marker);
       prevMarkerWindow = infowindow;
     });
