@@ -324,3 +324,8 @@ height:150px;
   text-align: left;
   font-family: Raleway, sans-serif;
 }
+
+.modal-footer {
+text-align: center;
+
+}
