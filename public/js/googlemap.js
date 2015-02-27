@@ -197,7 +197,8 @@ function success(position)
   {
     myInfowindow.open(map, marker);
   });
-  $('#meButton').click(returnToCenter);
+  
+  $('#header-title-M').click(returnToCenter);
   console.log("Center initialized to user's location.");
 
   function returnToCenter(e)
