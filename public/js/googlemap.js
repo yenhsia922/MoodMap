@@ -164,7 +164,7 @@ function success(position)
           content: result[i].currentStatus
         });
         var icon = {
-          url: result[i].image,
+          url: result[i].emoji,
           scaledSize: new google.maps.Size(35, 35)
         };
         var markerx = new google.maps.Marker(

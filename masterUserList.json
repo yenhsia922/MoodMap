@@ -8,7 +8,8 @@
 		"timestamp": "i am drinking",
 		"latitude": "32.8790",
 		"longitude": "-117.2360",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji2.png"
 	},
 	{
 	  	"userId": 1,
@@ -18,7 +19,8 @@
 		"timestamp": "cool space",
 		"latitude": "32.88325",
 		"longitude": "-117.2317873",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji8.png"
 	},
 	{
 	  	"userId": 2,
@@ -28,7 +30,8 @@
 		"timestamp": "TESTING",
 		"latitude": "32.8758",
 		"longitude": "-117.2368",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji11.png"
 	},
 	{
 	  	"userId": 3,
@@ -37,7 +40,8 @@
 		"currentStatus": "<img width='30' height='30' src=/images/emoji/emoji7.png </img> Lucky Day!",
 		"timestamp": "i have an extra soda first one here gets it",
 		"latitude": "32.8788",
-		"longitude": "-117.2351"
+		"longitude": "-117.2351",
+		"emoji": "/images/emoji/emoji7.png"
 	},
 	{
 	  	"userId": 4,
@@ -47,7 +51,8 @@
 		"timestamp": "basketball?",
 		"latitude": "32.8799",
 		"longitude": "-117.2371",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji9.png"
 	},
 	{
 	  	"userId": 5,
@@ -57,7 +62,9 @@
 		"timestamp": "i like snails",
 		"latitude": "32.8778",
 		"longitude": "-117.2351",
-		"gender": "male"
+		"gender": "male",
+		"emoji": "/images/emoji/emoji10.png"
+
 	},
 	{
 	  	"userId": 6,
@@ -67,7 +74,8 @@
 		"timestamp": "time",
 		"latitude": "32.8885",
 		"longitude": "-117.2416",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji4.png"
 	},
 	{
 	  	"userId": 7,
@@ -77,7 +85,8 @@
 		"timestamp": "time",
 		"latitude": "32.8865",
 		"longitude": "-117.2406",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji8.png"
 	},
 	{
 	  	"userId": 8,
@@ -87,7 +96,8 @@
 		"timestamp": "time",
 		"latitude": "32.878835",
 		"longitude": "-117.242489",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji19.png"
 	},
 	{
 	  	"userId": 9,
@@ -97,7 +107,8 @@
 		"timestamp": "time",
 		"latitude": "32.8840",
 		"longitude": "-117.2429",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji12.png"
 	},
 	{
 	  	"userId": 10,
@@ -107,7 +118,8 @@
 		"timestamp": "time",
 		"latitude": "32.884241",
 		"longitude": "-117.240204",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji15.png"
 	},
 	{
 	  	"userId": 11,
@@ -117,7 +129,8 @@
 		"timestamp": "time",
 		"latitude": "32.8853",
 		"longitude": "-117.2411",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji17.png"
 	},
 	{
 	  	"userId": 12,
@@ -127,7 +140,8 @@
 		"timestamp": "time",
 		"latitude": "32.8852",
 		"longitude": "-117.2390",
-		"gender": "female"
+		"gender": "female",
+		"emoji": "/images/emoji/emoji1.png"
 	},
 	{
 		"userId": 12,
@@ -137,7 +151,8 @@
 		"timestamp": "time",
 		"latitude": "32.878921",
 		"longitude": "-117.2374963",
-		"gender": "male"
+		"gender": "male",
+		"emoji": "/images/emoji/emoji3.png"
 	}
 
 ]

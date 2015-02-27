@@ -19,7 +19,10 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-      #title,imgs {
+      #title{
+      text-align:left;
+      }
+      #title-msg{
       text-align:center;
       }
       #each{
@@ -68,7 +71,7 @@
         <div class="col-lg-4 col-sm-6 col-xs-12" id="imgs">
           <a href="#" class="thumbnail">
             <h3 id ="title">{{name}}</h3>
-            <h4 id ="title">{{message}}</h4>
+            <h4 id ="title-msg">{{message}}</h4>
             <img src="{{imageURL}}" class="img-responsive"  id="each"><br>
             <button type="button" class="btn btn-block msg" id="msg">Reply</button>
             <button id="red"type="button" class="btn btn-block delete">Delete</button>
