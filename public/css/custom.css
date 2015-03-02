@@ -22,6 +22,7 @@
   color:#FFF;
 }
 
+
 .fileUpload input.upload {
   position: absolute;
   top: 0;
@@ -35,7 +36,6 @@
   filter: alpha(opacity=0);
 }
 
-
 #cont {
   max-width:400px;
   /* align logo to center*/
@@ -44,41 +44,26 @@
 }
 
 body {
-  margin: 0%;
-  margin-top: 50px;
   color:#3e89e6;
-  background-color:#C5EED6;
-  padding-bottom:20px;
+  background-color: #D9F5BE;
   font-family: 'Raleway', sans-serif;
 }
 
-.content{
-    background-color:#C5EED6;
-    margin-top: 100px;
+
+.bodycontainer{
+  padding-top: 30px;
+}
+
+.indexpadding{
+  margin: 40px 10px 10px 10px;
 }
 
 .post-margin .btn{
   margin-top: -10px;
 }
 
-.profile-container{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 2%;
-}
-
 a:hover{
   text-decoration: none;
-}
-
-.center-title{
-  text-align: center;
-}
-
-.center-profile-text{
-  margin: 2%;
-  padding-bottom: 30px;
-  color: #0a0a0a;
 }
 
 .bar-nav{
@@ -89,6 +74,7 @@ a:hover{
   max-width:100%;
   margin-top: -30px;
 }
+
 
 .title {
   position: absolute;
@@ -160,7 +146,7 @@ a.btn-default{
   margin-top:-30px;
   padding: 10px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 #header-title{
@@ -168,6 +154,8 @@ a.btn-default{
   font-weight: 700;
   font-size: 36px;
 }
+
+
 
 #header-title2{
   padding: 10px;
@@ -306,8 +294,6 @@ text-align: center;
 width: 150px;
 height:150px;
 }
-
-
 
 .infowindow{
   padding: 10px;
