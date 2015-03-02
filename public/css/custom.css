@@ -45,7 +45,7 @@
 
 body {
   color:#3e89e6;
-  background-color: #C2E0F4;
+  background-color: #E8F4FA;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -142,7 +142,7 @@ a.btn-default{
 }
 
 #meButton{
-  position: absolute;
+  position: fixed;
   top: 15px;
   right: 25px;
 }
