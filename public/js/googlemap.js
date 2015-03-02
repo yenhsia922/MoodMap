@@ -200,7 +200,6 @@ function success(position)
   });
   
   $('#meButton').click(returnToCenter);
-  console.log("Center initialized to user's location.");
 
   function returnToCenter(e)
   {
