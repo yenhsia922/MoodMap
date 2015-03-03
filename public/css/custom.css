@@ -1,3 +1,6 @@
+#inputStatus{
+  width:1068px;
+}
 
 .dropdown{
   height:30px;
@@ -176,6 +179,10 @@ a.btn-default{
   border-color: #fffdbe;
   color: #3e89e6;
   transition: .5s ease all;
+}
+
+.pull-right {
+float: right;
 }
 
 .form-box{
