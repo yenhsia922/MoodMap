@@ -157,8 +157,6 @@ a.btn-default{
   font-size: 36px;
 }
 
-
-
 #header-title2{
   padding: 10px;
   font-weight: 700;
@@ -172,7 +170,6 @@ a.btn-default{
   font-weight: 700;
   font-size: 36px;
 }
-
 
 .btn-default:hover{
   background-color: #fffdbe;
@@ -289,8 +286,6 @@ text-align: center;
   background-color: white;
   max-width: 250px;
 }
-
-
 
 .circular {
 width: 150px;
