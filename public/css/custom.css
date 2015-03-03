@@ -141,10 +141,8 @@ a.btn-default{
   width:100px;
 }
 
-#meButton{
-  position: fixed;
-  top: 15px;
-  right: 25px;
+#meButton{ 
+  margin: 15px 25px 0 0;
 }
 
 #header-title-M{

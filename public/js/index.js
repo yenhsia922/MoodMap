@@ -20,6 +20,11 @@ function initializePage() {
     //add your Woopra tracking code for version A's like button click event
     woopra.track("b_version_ham_click");
   })
+
+  $("#navIconAlt").on("click", function() {
+   document.getElementById("navIconAlt").src = "images/Menu-512.png";
+  });
+
 }
 
 $('#myModal').on('shown.bs.modal', function () {
