@@ -22,8 +22,6 @@ $(document).ready(function()
     $(".expanded").hide();
     $(".collapsed").show();
   });
-
-
 });
 
 function getLocation()
@@ -95,7 +93,7 @@ function hideBorder(e)
       userArray.push(result['user']);
       console.log(userArray[0]);
       showBorder(e);
-      contentString = '<div class="myName">' + '<p><b>' + userArray[0] + '</b></p>' + '</div>' + "<img width='30' height='30' src=/images/emoji/" + e + ".png>";
+      contentString = '<div class="myName">' + '<p><h6 style="min-width: 120px"><b>' + userArray[0] + '</b></h6></p>' + '</div>' + "<img width='30' height='30' src=/images/emoji/" + e + ".png>";
     }
     // var contentString = "<img width='30' height='30' src=/images/emoji/" + e + ".png>              
 }
@@ -104,7 +102,7 @@ function success(position)
 {
   if (position == 0)
   {
-    console.log("in success")
+    console.log("In success")
   }
   else
   {
@@ -139,12 +137,12 @@ function success(position)
   {
     userArray.push(result['user']);
     console.log(userArray[0]);
-    contentString = '<div class="myName">' + '<p><b>' + userArray[0] + '</b></p>' + '</div>';
+    contentString = '<div class="myName">' + '<p><h6 style="min-width: 120px"><b>' + userArray[0] + '</b></h6></p>' + '</div>';
   }
   google.maps.event.addDomListener(document.getElementById('post'), 'click', function()
   {
     myInfowindow.setContent(contentString + "   " + document.getElementById('inputStatus').value + "  ");
-    console.log(document.getElementById('inputStatus').value);
+    /*console.log(document.getElementById('inputStatus').value);*/
     myInfowindow.open(map, marker);
   });
   createUserList();
@@ -204,7 +202,7 @@ function success(position)
   function returnToCenter(e)
   {
     console.log("Returned you to center.");
-    map.setZoom(17);
+    map.setZoom(16);
     map.panTo(marker.getPosition());
   }
 }

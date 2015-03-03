@@ -131,7 +131,6 @@ select {
   padding: 8px;
 }
 
-
 .form-button-space{
   margin-top: 10px;
 }
@@ -141,7 +140,7 @@ a.btn-default{
   width:100px;
 }
 
-#meButton{ 
+#meButton, #searchIcon{ 
   margin: 15px 25px 0 0;
 }
 

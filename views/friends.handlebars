@@ -19,24 +19,40 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-      #title,imgs {
-      text-align:center;
+      #title, imgs{
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 10px;
+      }
+      #title-name{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
       }
       #each{
-      height:50px;
+      height: 50px;
       }
       #red {
       background-color: rgb(255, 87, 87);
       color: white;
+      }
+      .thumbnail{
+        height:220px;
+      }
+      .messageContainer{
+        padding: 2%;
       }
     </style>
   </head>
   <body>
   
   <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-      <a class="navmenu-brand" href="/MainPage"><span id="meButton" href="#" data-toggle="tooltip" data-placement="bottom">
+      <a class="navmenu-brand" href="/MainPage">
         <img src="images/transbgMMlogo.png" alt="logo" style="height:40px;width:auto"> 
-        Mood Map</span></a>
+        Mood Map</a>
       <ul class="nav navmenu-nav">
         <span><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/c0.0.160.160/p160x160/1483207_10153627456970241_1882343623_n.jpg?oh=721935cf649682fb9a7adfee909183a3&oe=554BA7AB&__gda__=1431919654_96d0cbe6628b5ee1bce6bde2c64f6e72" alt="" class="circular"></span>
       </ul>
@@ -50,21 +66,22 @@
       </ul>
     </div>
     <div class="navbar navbar-default navbar-fixed-top">
-      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-	  
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+      <button type="button" class="navbar-toggle version_a" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+        <img src="images/Menu-512.png" alt="" style="height: 40px; width: 40px"/>
       </button>
+
+      <span class="pull-right" id="searchIcon">
+        <img src="images/search.png" alt="" style="height: 40px; width: 40px;"/>
+      </span>
     </div>
   
-    <div class="container" id = "imgcontainter">
+    <div class="container">
       <h1 id ="title">Friends</h1>
       <div class="row">
         {{#each friends}}
         <div class="col-lg-4 col-sm-6 col-xs-12" id="imgs">
           <a href="#" class="thumbnail">
-            <h3 id ="title">{{name}}</h3>
+            <h3 id ="title-name">{{name}}</h3>
             <img src="{{imageURL}}" class="img-responsive"  id="each"><br>
             <button type="button" class="btn btn-block msg" id="msg">Message</button>
             <button id="red"type="button" class="btn btn-block delete">Delete</button>
@@ -130,8 +147,6 @@
 
       function send(){
           $("#thisModal").modal('hide');
-
-
 
       }
     </script>
