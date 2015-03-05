@@ -1,5 +1,5 @@
 #inputStatus{
-  width:1068px;
+  position:relative;
 }
 
 .dropdown{
@@ -185,6 +185,12 @@ a.btn-default{
 float: right;
 }
 
+.navbar-toggle.version_b{
+
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
+  margin-right:0px;
+}
 .form-box{
   margin-bottom: 10px;
 }
